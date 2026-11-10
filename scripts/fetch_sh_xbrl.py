@@ -15,6 +15,7 @@ REQUEST_SLEEP = 0.3
 SESSION_REFRESH_INTERVAL = 10
 
 BASE_URL = "https://www.nseindia.com"
+
 HEADERS = {
     "accept": "*/*",
     "accept-language": "en-GB,en;q=0.7",

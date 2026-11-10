@@ -7,11 +7,13 @@ ROOT = Path(__file__).resolve().parent.parent
 SYMBOL_FILE = ROOT / "data" / "symbol" / "symbol.txt"
 OUT_DIR = ROOT / "data" / "nse" / "sh_master"
 OUT_DIR_DISPLAY = f"{ROOT.name}/{OUT_DIR.relative_to(ROOT)}"
+
 RETRIES = 3
 REQUEST_SLEEP = 0.5
 
 BASE_URL = "https://www.nseindia.com"
 API_URL = f"{BASE_URL}/api/corporate-share-holdings-master"
+
 HEADERS = {
     "accept": "*/*",
     "accept-language": "en-GB,en;q=0.7",

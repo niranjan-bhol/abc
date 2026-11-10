@@ -57,20 +57,16 @@ CATEGORIES = [
     "NonInstitutions",
     "PublicShareholding",
 ]
-COLUMNS = ["Symbol", *CATEGORIES]
 
+COLUMNS = ["Symbol", *CATEGORIES]
 
 def prepare_output_dir():
     if OUT_DIR.exists():
         shutil.rmtree(OUT_DIR)
-        print(f"Output directory exists : {OUT_DIR_DISPLAY}")
-        print("Cleared output directory")
     for metric in METRICS:
         (OUT_DIR / metric).mkdir(parents=True, exist_ok=True)
 
-
 def read_filing(path):
-    """Return {metric: {category: value}} for one filing CSV."""
     data = {metric: {} for metric in METRICS}
     with path.open(newline="", encoding="utf-8-sig") as f:
         for row in csv.DictReader(f):
@@ -79,9 +75,7 @@ def read_filing(path):
                 data[metric][category] = (row.get(metric) or "").strip()
     return data
 
-
 def load_filings():
-    """Return {symbol: [(date, path), ...]} sorted by date ascending."""
     filings = {}
     for folder in sorted(p for p in IN_DIR.iterdir() if p.is_dir()):
         items = []
@@ -94,18 +88,14 @@ def load_filings():
             filings[folder.name] = sorted(items)
     return filings
 
-
 def month_range(last_year, last_month):
     year, month = START_YEAR, START_MONTH
     while (year, month) <= (last_year, last_month):
         yield year, month
         year, month = (year + 1, 1) if month == 12 else (year, month + 1)
 
-
 def month_end_key(year, month):
-    # Compare filing dates against the first day of the next month
     return (year + 1, 1) if month == 12 else (year, month + 1)
-
 
 def main():
     if not IN_DIR.exists():
@@ -132,7 +122,6 @@ def main():
         limit = datetime(*month_end_key(year, month), 1).date()
         rows = {metric: [] for metric in METRICS}
         for symbol, items in filings.items():
-            # Latest filing submitted on or before the end of this month
             latest = next((p for d, p in reversed(items) if d < limit), None)
             if latest is None:
                 continue
@@ -150,7 +139,6 @@ def main():
         print(f"{name} -> {len(rows[METRICS[0]])} symbols")
 
     print(f"\nSUCCESS : output written to {OUT_DIR_DISPLAY}")
-
 
 if __name__ == "__main__":
     main()

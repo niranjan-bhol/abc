@@ -18,6 +18,7 @@ FACT_TO_COLUMN = {
     "NumberOfShares": "number_of_shares",
     "ShareholdingAsAPercentageOfTotalNumberOfShares": "shareholding_pct",
 }
+
 NUMERIC_COLUMNS = tuple(FACT_TO_COLUMN.values())
 COLUMNS = ["category", *NUMERIC_COLUMNS]
 
@@ -106,6 +107,7 @@ SECTIONS = [
         ("NonInstitutions",),
     ),
 ]
+
 TOTAL_ALIASES = ("PublicShareholding",)
 
 def local(tag):
@@ -149,7 +151,6 @@ def find(entries, aliases):
     return None
 
 def make_row(entry, aliases):
-    # Canonical name keeps category labels identical across filings with differing XBRL spellings
     row = {"category": aliases[0]}
     if entry is not None:
         row.update({c: entry[c] for c in NUMERIC_COLUMNS if c in entry})
