@@ -21,11 +21,6 @@ FACT_TO_COLUMN = {
 NUMERIC_COLUMNS = tuple(FACT_TO_COLUMN.values())
 COLUMNS = ["category", *NUMERIC_COLUMNS]
 
-# Template of the public shareholding table, in order.
-# Labels are the XBRL names. Several aliases cover spelling/schema differences
-# between filing years; the first alias is the name used when a filing has no
-# such row (the row is then left blank).
-# Section = (items, other_rows, subtotal_aliases)
 SECTIONS = [
     (  # Institutions (Domestic)
         [
@@ -137,7 +132,6 @@ def parse_contexts(root):
     return contexts
 
 def sum_values(rows):
-    """Sum the numeric columns of several rows; {} if none has data."""
     total = {}
     for row in rows:
         for col in NUMERIC_COLUMNS:
@@ -149,17 +143,17 @@ def sum_values(rows):
     return {col: str(value) for col, value in total.items()}
 
 def find(entries, aliases):
-    """First entry matching one of the aliases (case-insensitive), else None."""
     for alias in aliases:
         if alias.lower() in entries:
             return entries[alias.lower()]
     return None
 
 def make_row(entry, aliases):
-    """Row labelled with the XBRL name found in the file, or the canonical name if absent."""
-    if entry is None:
-        return {"category": aliases[0]}
-    return {"category": entry["name"], **{c: entry[c] for c in NUMERIC_COLUMNS if c in entry}}
+    # Canonical name keeps category labels identical across filings with differing XBRL spellings
+    row = {"category": aliases[0]}
+    if entry is not None:
+        row.update({c: entry[c] for c in NUMERIC_COLUMNS if c in entry})
+    return row
 
 def build_rows(facts, details):
     rows = []
@@ -172,7 +166,6 @@ def build_rows(facts, details):
             rows.append(make_row(entry, aliases))
         for aliases in others:
             rows.append(make_row(find(details, aliases), aliases))
-        # Older schemas have no sub-total fact; fall back to summing the items.
         entry = find(facts, subtotal_aliases)
         if entry is None:
             summed = sum_values(item_entries)
@@ -194,11 +187,6 @@ def to_decimal(value):
         return None
 
 def is_fraction_scale(facts):
-    """True if the file stores shareholding % as a fraction of 1 (e.g. 0.6734) instead of 67.34.
-
-    The grand-total row (ShareholdingPattern) is 100% in a percentage-style file
-    and 1 in a fraction-style file, so it decides the scale.
-    """
     total = to_decimal(facts.get("shareholdingpattern", {}).get("shareholding_pct"))
     if total is not None:
         return total <= 1
@@ -272,7 +260,7 @@ def process_symbol(folder, label):
             if not rows:
                 raise ValueError("no public shareholding data")
             out_dir.mkdir(parents=True, exist_ok=True)
-            with open(out_dir / f"{xml_path.stem}.csv", "w", newline="") as f:
+            with open(out_dir / f"{xml_path.stem}.csv", "w", newline="", encoding="utf-8") as f:
                 writer = csv.DictWriter(f, fieldnames=COLUMNS)
                 writer.writeheader()
                 writer.writerows(rows)

@@ -68,13 +68,11 @@ def process_symbol(session, file, label):
     saved = failed = 0
 
     for row in json.loads(file.read_text()):
-        url, date = row.get("xbrl"), row.get("date")
-        submission = row.get("submissionDate")
-        if not url or not date or not submission:
+        url, submission = row.get("xbrl"), row.get("submissionDate")
+        if not url or not submission:
             continue
-        date_str = datetime.strptime(date, "%d-%b-%Y").strftime("%Y%m%d")
         submission_str = datetime.strptime(submission, "%d-%b-%Y").strftime("%Y%m%d")
-        out = out_dir / f"{date_str}_{submission_str}.xml"
+        out = out_dir / f"{submission_str}.xml"
         if out.exists():
             continue
         if download(session, url, out):
