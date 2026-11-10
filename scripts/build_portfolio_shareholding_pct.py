@@ -50,7 +50,7 @@ def main():
     for path in files:
         n_cols = process_file(path)
         print(f"{path.name}: {n_cols} columns")
-    print(f"Done. {len(files)} files -> {OUT_DIR}")
+    print(f"Done. {len(files)} files -> {Path(ROOT.name) / OUT_DIR.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

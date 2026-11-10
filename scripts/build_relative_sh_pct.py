@@ -66,7 +66,7 @@ def main():
             print(f"{path.name}: skipped (no previous month)")
         prev_path, prev_data = path, data
 
-    print(f"Done -> {OUT_DIR}")
+    print(f"Done -> {Path(ROOT.name) / OUT_DIR.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":
