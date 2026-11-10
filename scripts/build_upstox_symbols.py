@@ -2,34 +2,16 @@ import json
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-DATA_DIR = BASE_DIR / "data"
 
-SYMBOL_FILE = DATA_DIR / "symbol" / "symbol.txt"
-OUTPUT_FILE = DATA_DIR / "upstox" / "symbols" / "symbol.json"
-
-# NSE.json is downloaded to either location depending on the fetch script used
-INSTRUMENT_CANDIDATES = [
-    DATA_DIR / "upstox" / "instruments" / "NSE.json",
-    BASE_DIR / "upstox" / "instruments" / "NSE.json",
-]
-
-
-def find_instruments_file():
-    for path in INSTRUMENT_CANDIDATES:
-        if path.exists():
-            return path
-    raise FileNotFoundError(
-        "NSE.json not found in: " + ", ".join(str(p) for p in INSTRUMENT_CANDIDATES)
-    )
-
+SYMBOL_FILE = BASE_DIR / "data" / "symbol" / "symbol.txt"
+INSTRUMENT_FILE = BASE_DIR / "data" / "upstox" / "instruments" / "NSE.json"
+OUTPUT_FILE = BASE_DIR / "data" / "upstox" / "symbols" / "symbol.json"
 
 def priority(instrument):
-    # Prefer plain NSE equity over bonds/other series sharing a trading symbol
     return (
         instrument.get("segment") == "NSE_EQ",
         instrument.get("instrument_type") == "EQ",
     )
-
 
 def build_symbols():
     symbols = [
@@ -38,8 +20,7 @@ def build_symbols():
         if line.strip()
     ]
 
-    instruments_file = find_instruments_file()
-    with open(instruments_file, "r", encoding="utf-8") as file:
+    with open(INSTRUMENT_FILE, "r", encoding="utf-8") as file:
         instruments = json.load(file)
 
     wanted = set(symbols)
@@ -70,10 +51,8 @@ def build_symbols():
     if missing:
         print(f"Not found ({len(missing)}): {', '.join(missing)}")
 
-
 def main():
     build_symbols()
-
 
 if __name__ == "__main__":
     main()
