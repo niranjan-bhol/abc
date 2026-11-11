@@ -4,7 +4,7 @@ import requests
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-OUTPUT_DIR = BASE_DIR / "data" / "instruments"
+OUTPUT_DIR = BASE_DIR / "data" / "upstox" / "instruments"
 
 BASE_URL = "https://assets.upstox.com/market-quote/instruments/exchange/"
 

@@ -3,11 +3,12 @@ import requests
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-SYMBOLS_FILE = "symbols.json"
+SYMBOLS_FILE = "symbol.json"
 ACCESS_TOKEN_FILE = "access_token.txt"
 SYMBOL_PATH = BASE_DIR / "data" / "upstox" / "symbols" / SYMBOLS_FILE
 TOKEN_PATH = BASE_DIR / "data" / "upstox" / "auth" / ACCESS_TOKEN_FILE
 OUTPUT_DIR = BASE_DIR / "data" / "upstox" / "historical" / "json"
+OUTPUT_PATH_DISPLAY = f"{BASE_DIR.name}/{OUTPUT_DIR.relative_to(BASE_DIR)}"
 
 API_BASE_URL = "https://api.upstox.com/v3/historical-candle"
 
@@ -22,11 +23,15 @@ def load_symbols():
     with open(SYMBOL_PATH, "r") as f:
         return json.load(f)
 
-def setup_output_directory():
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    
-    for file in OUTPUT_DIR.glob("*.json"):
-        file.unlink()
+def prepare_output_dir():
+    if OUTPUT_DIR.exists():
+        for file in OUTPUT_DIR.glob("*.json"):
+            file.unlink()
+        print(f"Output directory exists : {OUTPUT_PATH_DISPLAY}")
+        print("Cleared output directory")
+    else:
+        OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+        print(f"Created output directory : {OUTPUT_PATH_DISPLAY}")
 
 def fetch_historical_data(instrument_key, access_token):
     encoded_instrument = requests.utils.quote(instrument_key, safe='')
@@ -39,33 +44,28 @@ def fetch_historical_data(instrument_key, access_token):
         "Authorization": f"Bearer {access_token}"
     }
     
-    try:
-        response = requests.get(url, headers=headers, timeout=30)
-        response.raise_for_status()
-        return response.json()
-    except Exception as e:
-        print(f"Error: {e}")
-        return None
+    response = requests.get(url, headers=headers, timeout=30)
+    response.raise_for_status()
+    return response.json()
 
-def process_symbol(symbol_name, instrument_key, access_token, idx, total):
-    print(f"\n[{idx}/{total}] {symbol_name}")
-    print(f"  Instrument : {instrument_key}")
+def process_symbol(symbol_name, instrument_key, access_token, idx, total, name_width, key_width):
+    width = len(str(total))
+    print(f"[{idx:0{width}d}/{total}]  {symbol_name:<{name_width}}  ->  ", end="", flush=True)
     
-    print(f"  Date range : {START_DATE} to {END_DATE}")
+    try:
+        data = fetch_historical_data(instrument_key, access_token)
+        
+        output_file = OUTPUT_DIR / f"{symbol_name}.json"
+        with open(output_file, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2)
+        
+        total_candles = len(data["data"]["candles"])
     
-    final_data = fetch_historical_data(instrument_key, access_token)
-    
-    if not final_data:
-        print("  No data fetched")
+    except Exception as e:
+        print(f"ERROR ({e})")
         return False
     
-    output_file = OUTPUT_DIR / f"{symbol_name}.json"
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(final_data, f, indent=2)
-    
-    total_candles = len(final_data.get("data", {}).get("candles", []))
-    print(f"  Saved : {total_candles:,} total candles to {symbol_name}.json")
-    
+    print(f"{total_candles:>4} candles")
     return True
 
 def main():
@@ -73,22 +73,23 @@ def main():
         access_token = load_access_token()
         symbols = load_symbols()
         
-        setup_output_directory()
-        
-        relative_output = Path("/") / OUTPUT_DIR.relative_to(BASE_DIR.parent)
-        print(f"Output directory: {relative_output}")
+        prepare_output_dir()
+        print()
         
         success_count = 0
         total_symbols = len(symbols)
+        name_width = max(len(name) for name in symbols)
+        key_width = max(len(key) for key in symbols.values())
         
         for idx, (symbol_name, instrument_key) in enumerate(symbols.items(), 1):
-            if process_symbol(symbol_name, instrument_key, access_token, idx, total_symbols):
+            if process_symbol(symbol_name, instrument_key, access_token, idx, total_symbols, name_width, key_width):
                 success_count += 1
         
-        print(f"\nSuccessfully downloaded data for {success_count}/{total_symbols} symbols")
+        print(f"\nDownloaded data for {success_count}/{total_symbols} symbols")
+        print(f"Saved to : {OUTPUT_PATH_DISPLAY}")
     
     except Exception as e:
-        print(f"Error: {e}")
+        print(f"ERROR : {e}")
 
 if __name__ == "__main__":
     main()

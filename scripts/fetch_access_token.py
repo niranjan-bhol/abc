@@ -16,7 +16,7 @@ PIN = os.getenv("PIN")
 
 ACCESS_TOKEN_FILE = "access_token.txt"
 BASE_DIR = Path(__file__).resolve().parent.parent
-TOKEN_DIR = BASE_DIR / "data" / "auth"
+TOKEN_DIR = BASE_DIR / "data" / "upstox" / "auth"
 TOKEN_PATH = TOKEN_DIR / ACCESS_TOKEN_FILE
 
 REDIRECT_URL = "http://127.0.0.1:5000/"

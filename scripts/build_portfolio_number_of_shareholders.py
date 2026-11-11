@@ -8,7 +8,6 @@ OUT_DIR = ROOT / "data" / "portfolio" / "number_of_shareholders"
 N = 30
 SYMBOL_COL = "Symbol"
 
-
 def to_number(raw):
     raw = (raw or "").strip().replace(",", "")
     if not raw:
@@ -17,7 +16,6 @@ def to_number(raw):
         return float(raw)
     except ValueError:
         return None
-
 
 def process_file(path):
     month = path.stem.replace("_", "-")  # 2021_01 -> 2021-01
@@ -44,14 +42,12 @@ def process_file(path):
                 writer.writerow([symbol, raw])
     return len(columns)
 
-
 def main():
     files = sorted(IN_DIR.glob("*.csv"))
     for path in files:
         n_cols = process_file(path)
         print(f"{path.name}: {n_cols} columns")
-    print(f"Done. {len(files)} files -> {Path(ROOT.name) / OUT_DIR.relative_to(ROOT)}")
-
+    print(f"Done - {len(files)} files -> {Path(ROOT.name) / OUT_DIR.relative_to(ROOT)}")
 
 if __name__ == "__main__":
     main()
