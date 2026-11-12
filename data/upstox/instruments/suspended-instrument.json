@@ -6314,6 +6314,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "SENTHIL INFOTEK LTD",
+    "exchange": "BSE",
+    "isin": "INE564B01015",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE564B01015",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "531980",
+    "tick_size": 1.0,
+    "trading_symbol": "SENINFO",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "SUMAX ENGINEERING LIMITED",
     "exchange": "NSE",
@@ -19114,6 +19128,20 @@
     "name": "SKIL INFRASTRUCTURE LTD.",
     "exchange": "NSE",
     "isin": "INE429F01012",
+    "instrument_type": "BZ",
+    "instrument_key": "NSE_EQ|INE429F01012",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "24107",
+    "tick_size": 1.0,
+    "trading_symbol": "SKIL",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "SKIL INFRASTRUCTURE LTD.",
+    "exchange": "NSE",
+    "isin": "INE429F01012",
     "instrument_type": "EQ",
     "instrument_key": "NSE_EQ|INE429F01012",
     "lot_size": 1,
@@ -21687,6 +21715,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "IYKOT HITECH TOOLROOM LTD.",
+    "exchange": "BSE",
+    "isin": "INE079L01013",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE079L01013",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "522245",
+    "tick_size": 1.0,
+    "trading_symbol": "IYKOTHITE",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "ICICI Prudential Mutual Fund",
     "exchange": "BSE",
     "isin": "INF109KC1879",
@@ -23160,20 +23202,6 @@
     "name": "METROPOLIS HEALTHCARE LTD",
     "exchange": "NSE",
     "isin": "INE112L01020",
-    "instrument_type": "T0",
-    "instrument_key": "NSE_EQ|INE112L01020",
-    "lot_size": 1,
-    "freeze_quantity": 100000.0,
-    "exchange_token": "29376",
-    "tick_size": 5.0,
-    "trading_symbol": "METROPOLIS",
-    "qty_multiplier": 1.0
-  },
-  {
-    "segment": "NSE_EQ",
-    "name": "METROPOLIS HEALTHCARE LTD",
-    "exchange": "NSE",
-    "isin": "INE112L01020",
     "instrument_type": "TL",
     "instrument_key": "NSE_EQ|INE112L01020",
     "lot_size": 999999999,
@@ -23986,7 +24014,7 @@
     "name": "FASCINATE TEXTILES LTD",
     "exchange": "BSE",
     "isin": "INE1Q2D01019",
-    "instrument_type": "NS",
+    "instrument_type": "NT",
     "instrument_key": "BSE_EQ|INE1Q2D01019",
     "lot_size": 800,
     "freeze_quantity": 100000.0,
@@ -25365,6 +25393,20 @@
     "exchange_token": "977088",
     "tick_size": 1.0,
     "trading_symbol": "9VCL26",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "PROGREX VENTURES LIMITED",
+    "exchange": "BSE",
+    "isin": "INE421E01012",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE421E01012",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "531265",
+    "tick_size": 1.0,
+    "trading_symbol": "PROGREXV",
     "qty_multiplier": 1.0
   },
   {
@@ -27441,6 +27483,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "Lasa Supergenerics Limited",
+    "exchange": "BSE",
+    "isin": "INE670X01014",
+    "instrument_type": "T",
+    "instrument_key": "BSE_EQ|INE670X01014",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "540702",
+    "tick_size": 1.0,
+    "trading_symbol": "LASA",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "Aditya Birla Sun Life Mutual F",
     "exchange": "BSE",
     "isin": "INF209KB1JB9",
@@ -28994,6 +29050,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "FOURTH GENERATION INFORMATION",
+    "exchange": "BSE",
+    "isin": "INE739B01039",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE739B01039",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "532403",
+    "tick_size": 1.0,
+    "trading_symbol": "4THGEN",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "GROWWAMC - GROWWHOSPI",
     "exchange": "NSE",
@@ -29467,6 +29537,20 @@
     "exchange_token": "25808",
     "tick_size": 1.0,
     "trading_symbol": "LLOYDSENT",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "Shantai Industries Limited",
+    "exchange": "BSE",
+    "isin": "INE408F01024",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE408F01024",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "512297",
+    "tick_size": 1.0,
+    "trading_symbol": "SHANTAI",
     "qty_multiplier": 1.0
   },
   {
@@ -33223,6 +33307,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "OLYMPIC MANAGEMENT & FINANCIAL",
+    "exchange": "BSE",
+    "isin": "INE091N01014",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE091N01014",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "511632",
+    "tick_size": 1.0,
+    "trading_symbol": "OLYMTFI",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "ILFSFSL-8.75%-16-08-26-PVT",
     "exchange": "BSE",
     "isin": "INE121H07BP4",
@@ -36905,6 +37003,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "GALADA POWER & TELECOMMUNICATI",
+    "exchange": "BSE",
+    "isin": "INE255C01026",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE255C01026",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "504697",
+    "tick_size": 1.0,
+    "trading_symbol": "GALADA",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "MML-9.75%-13-9-26-PVT",
     "exchange": "BSE",
     "isin": "INE101Q07AS3",
@@ -40223,6 +40335,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "CITURGIA BIOCHEMICALS LTD.",
+    "exchange": "BSE",
+    "isin": "INE795B01031",
+    "instrument_type": "B",
+    "instrument_key": "BSE_EQ|INE795B01031",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "506373",
+    "tick_size": 5.0,
+    "trading_symbol": "CITURGIA",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "AJEL LTD.",
     "exchange": "BSE",
     "isin": "INE229B01015",
@@ -42196,6 +42322,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "AMALGAMATED ELECTRICITY CO.LTD",
+    "exchange": "BSE",
+    "isin": "INE492N01022",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE492N01022",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "501622",
+    "tick_size": 5.0,
+    "trading_symbol": "AMALGAM",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "SALASAR TECHNO ENGG. LTD.",
     "exchange": "NSE",
@@ -42476,6 +42616,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "JAYBHARAT TEXTILES & REAL ESTA",
+    "exchange": "BSE",
+    "isin": "INE091E01039",
+    "instrument_type": "Z",
+    "instrument_key": "BSE_EQ|INE091E01039",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "512233",
+    "tick_size": 1.0,
+    "trading_symbol": "JAYTEX",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "GOYAL ALUMINIUMS LIMITED",
     "exchange": "NSE",
@@ -42739,6 +42893,20 @@
     "exchange_token": "730478",
     "tick_size": 1.0,
     "trading_symbol": "MFL311025",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "Desi Farms India Limited",
+    "exchange": "BSE",
+    "isin": "INE358F01013",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE358F01013",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "507984",
+    "tick_size": 5.0,
+    "trading_symbol": "DESIFARMS",
     "qty_multiplier": 1.0
   },
   {
@@ -44195,6 +44363,20 @@
     "exchange_token": "804012",
     "tick_size": 1.0,
     "trading_symbol": "091TB280219",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "574GS2026",
+    "exchange": "BSE",
+    "isin": "IN0020210186",
+    "instrument_type": "G",
+    "instrument_key": "BSE_EQ|IN0020210186",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "800583",
+    "tick_size": 1.0,
+    "trading_symbol": "574GS2026",
     "qty_multiplier": 1.0
   },
   {
@@ -47359,6 +47541,20 @@
     "exchange_token": "7187",
     "tick_size": 5.0,
     "trading_symbol": "MEDICOTECH",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "ECS Biztech Limited",
+    "exchange": "BSE",
+    "isin": "INE925Q01024",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE925Q01024",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "540063",
+    "tick_size": 1.0,
+    "trading_symbol": "ECS",
     "qty_multiplier": 1.0
   },
   {
@@ -58548,6 +58744,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "MFL-13-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE522D14PU8",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE522D14PU8",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "732300",
+    "tick_size": 1.0,
+    "trading_symbol": "MFL14826",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "UTIAMC - UTDGR31P15",
     "exchange": "NSE",
@@ -60015,6 +60225,20 @@
     "exchange_token": "23373",
     "tick_size": 5.0,
     "trading_symbol": "VISHWAS",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "HARMONY CAPITAL SERVICES LTD.",
+    "exchange": "BSE",
+    "isin": "INE264N01017",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE264N01017",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "530055",
+    "tick_size": 5.0,
+    "trading_symbol": "HRMNYCP",
     "qty_multiplier": 1.0
   },
   {
@@ -63571,6 +63795,20 @@
     "exchange_token": "10094",
     "tick_size": 1.0,
     "trading_symbol": "UTDQP31P14",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "DOLPHIN MEDICAL SERVICES LTD.",
+    "exchange": "BSE",
+    "isin": "INE796B01013",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE796B01013",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "526504",
+    "tick_size": 1.0,
+    "trading_symbol": "DOLPHMED",
     "qty_multiplier": 1.0
   },
   {
@@ -70242,6 +70480,20 @@
     "name": "LASA SUPERGENERICS LTD",
     "exchange": "NSE",
     "isin": "INE670X01014",
+    "instrument_type": "BE",
+    "instrument_key": "NSE_EQ|INE670X01014",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "21723",
+    "tick_size": 1.0,
+    "trading_symbol": "LASA",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "LASA SUPERGENERICS LTD",
+    "exchange": "NSE",
+    "isin": "INE670X01014",
     "instrument_type": "BL",
     "instrument_key": "NSE_EQ|INE670X01014",
     "lot_size": 999999999,
@@ -71023,6 +71275,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "SKYLINE VENTURES INDIA LIMITED",
+    "exchange": "BSE",
+    "isin": "INE055Q01012",
+    "instrument_type": "Z",
+    "instrument_key": "BSE_EQ|INE055Q01012",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "538919",
+    "tick_size": 1.0,
+    "trading_symbol": "SKILVEN",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "BFSL-02-04-26-CP",
     "exchange": "BSE",
     "isin": "INE01C314EJ8",
@@ -71131,6 +71397,20 @@
     "exchange_token": "206241",
     "tick_size": 5.0,
     "trading_symbol": "AHIMSA",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "Cresanto Global Limited",
+    "exchange": "BSE",
+    "isin": "INE741C01017",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE741C01017",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "531207",
+    "tick_size": 1.0,
+    "trading_symbol": "CRESANTO",
     "qty_multiplier": 1.0
   },
   {
@@ -79030,6 +79310,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "SHAMROCK INDUSTRIAL CO.LTD.",
+    "exchange": "BSE",
+    "isin": "INE022F01015",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE022F01015",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "531240",
+    "tick_size": 1.0,
+    "trading_symbol": "SHAMROIN",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "GOI TBILL 364D-26/05/22",
     "exchange": "NSE",
@@ -86296,20 +86590,6 @@
     "qty_multiplier": 1.0
   },
   {
-    "segment": "BSE_EQ",
-    "name": "AGASTYA ENE AND INFRA LTD",
-    "exchange": "BSE",
-    "isin": "INE753W01010",
-    "instrument_type": "NT",
-    "instrument_key": "BSE_EQ|INE753W01010",
-    "lot_size": 1,
-    "freeze_quantity": 100000.0,
-    "exchange_token": "205222",
-    "tick_size": 1.0,
-    "trading_symbol": "AGASTYAEN",
-    "qty_multiplier": 1.0
-  },
-  {
     "segment": "NSE_EQ",
     "name": "LTFL 8.57% 2036 SR J",
     "exchange": "NSE",
@@ -88267,6 +88547,48 @@
     "exchange_token": "804321",
     "tick_size": 1.0,
     "trading_symbol": "182TB21121",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "ICICIPRAMC - POWERIETF",
+    "exchange": "NSE",
+    "isin": "INF109K1A724",
+    "instrument_type": "AF",
+    "instrument_key": "NSE_EQ|INF109K1A724",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "767076",
+    "tick_size": 1.0,
+    "trading_symbol": "POWERIETF",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "ICICIPRAMC - POWERIETF",
+    "exchange": "NSE",
+    "isin": "INF109K1A724",
+    "instrument_type": "BL",
+    "instrument_key": "NSE_EQ|INF109K1A724",
+    "lot_size": 999999999,
+    "freeze_quantity": 999999999.0,
+    "exchange_token": "767066",
+    "tick_size": 1.0,
+    "trading_symbol": "POWERIETF",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "ICICIPRAMC - POWERIETF",
+    "exchange": "NSE",
+    "isin": "INF109K1A724",
+    "instrument_type": "RL",
+    "instrument_key": "NSE_EQ|INF109K1A724",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "767065",
+    "tick_size": 1.0,
+    "trading_symbol": "POWERIETF",
     "qty_multiplier": 1.0
   },
   {
@@ -90846,6 +91168,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "RAASI REFRACTORIES LTD.",
+    "exchange": "BSE",
+    "isin": "INE858D01017",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE858D01017",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "502271",
+    "tick_size": 1.0,
+    "trading_symbol": "RASSIREF",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "GOI STRIPS C 020725",
     "exchange": "NSE",
@@ -91095,6 +91431,20 @@
     "exchange_token": "961708",
     "tick_size": 1.0,
     "trading_symbol": "IIFCLBDIS4",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "JBCPL-12-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE824H14UY1",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE824H14UY1",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "732276",
+    "tick_size": 1.0,
+    "trading_symbol": "JBCPL13826",
     "qty_multiplier": 1.0
   },
   {
@@ -92257,6 +92607,20 @@
     "exchange_token": "3225",
     "tick_size": 1.0,
     "trading_symbol": "ABSLFTPWRN",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "RAUNAQ INTERNATIONAL LIMITED",
+    "exchange": "BSE",
+    "isin": "INE523K01012",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE523K01012",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "537840",
+    "tick_size": 1.0,
+    "trading_symbol": "RAUNAQ",
     "qty_multiplier": 1.0
   },
   {
@@ -94346,6 +94710,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "OMKAR OVERSEAS LTD.",
+    "exchange": "BSE",
+    "isin": "INE680D01015",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE680D01015",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "531496",
+    "tick_size": 1.0,
+    "trading_symbol": "OMKAR",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "PALASH SECURITIES LTD",
     "exchange": "NSE",
@@ -95057,6 +95435,20 @@
     "exchange_token": "762434",
     "tick_size": 1.0,
     "trading_symbol": "OMPOWER",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "Aar Shyam India Investment Com",
+    "exchange": "BSE",
+    "isin": "INE512R01010",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE512R01010",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "542377",
+    "tick_size": 1.0,
+    "trading_symbol": "AARSHYAM",
     "qty_multiplier": 1.0
   },
   {
@@ -96135,6 +96527,20 @@
     "exchange_token": "523151",
     "tick_size": 1.0,
     "trading_symbol": "OTCO",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "MADHUR INDUSTRIES LTD.",
+    "exchange": "BSE",
+    "isin": "INE110C01015",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE110C01015",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "519279",
+    "tick_size": 1.0,
+    "trading_symbol": "MADHURIND",
     "qty_multiplier": 1.0
   },
   {
@@ -102593,6 +102999,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "Univa Foods Limited",
+    "exchange": "BSE",
+    "isin": "INE275F01019",
+    "instrument_type": "T",
+    "instrument_key": "BSE_EQ|INE275F01019",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "526683",
+    "tick_size": 1.0,
+    "trading_symbol": "UNIVAFOODS",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "AHFL-21-05-26-CP",
     "exchange": "BSE",
     "isin": "INE883F14112",
@@ -103727,6 +104147,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "BFSL-13-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE01C314GT2",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE01C314GT2",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "732307",
+    "tick_size": 1.0,
+    "trading_symbol": "BFSL14826",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "182TB25620",
     "exchange": "BSE",
     "isin": "IN002019Y407",
@@ -104189,6 +104623,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "IOCL-13-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE242A14ZD4",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE242A14ZD4",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "732767",
+    "tick_size": 1.0,
+    "trading_symbol": "IOCL151026",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "360 ONE WAM LIMITED",
     "exchange": "BSE",
     "isin": "INE466L01038",
@@ -104423,6 +104871,20 @@
     "exchange_token": "25300",
     "tick_size": 1.0,
     "trading_symbol": "AEL120924B",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "I-POWER SOLUTIONS INDIA LTD.",
+    "exchange": "BSE",
+    "isin": "INE468F01010",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE468F01010",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "512405",
+    "tick_size": 1.0,
+    "trading_symbol": "IPOWER",
     "qty_multiplier": 1.0
   },
   {
@@ -104703,6 +105165,20 @@
     "exchange_token": "1456",
     "tick_size": 1.0,
     "trading_symbol": "91D110321",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "N.D.METAL INDUSTRIES LTD.",
+    "exchange": "BSE",
+    "isin": "INE643D01013",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE643D01013",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "512024",
+    "tick_size": 1.0,
+    "trading_symbol": "NDMETAL",
     "qty_multiplier": 1.0
   },
   {
@@ -105221,6 +105697,20 @@
     "exchange_token": "9131",
     "tick_size": 1.0,
     "trading_symbol": "UTDFP31P06",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "OSWAL OVERSEAS LTD.",
+    "exchange": "BSE",
+    "isin": "INE906K01027",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE906K01027",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "531065",
+    "tick_size": 5.0,
+    "trading_symbol": "OSWALOR",
     "qty_multiplier": 1.0
   },
   {
@@ -106572,6 +107062,20 @@
     "name": "UNIVA FOODS LIMITED",
     "exchange": "NSE",
     "isin": "INE275F01019",
+    "instrument_type": "BE",
+    "instrument_key": "NSE_EQ|INE275F01019",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "10366",
+    "tick_size": 1.0,
+    "trading_symbol": "UNIVAFOODS",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "UNIVA FOODS LIMITED",
+    "exchange": "NSE",
+    "isin": "INE275F01019",
     "instrument_type": "BL",
     "instrument_key": "NSE_EQ|INE275F01019",
     "lot_size": 999999999,
@@ -106621,6 +107125,20 @@
     "exchange_token": "15889",
     "tick_size": 1.0,
     "trading_symbol": "UNIVAFOODS",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "Parmax Pharma Limited",
+    "exchange": "BSE",
+    "isin": "INE240T01014",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE240T01014",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "540359",
+    "tick_size": 5.0,
+    "trading_symbol": "PARMAX",
     "qty_multiplier": 1.0
   },
   {
@@ -108095,6 +108613,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "BFSL-12-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE01C314GL9",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE01C314GL9",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "732107",
+    "tick_size": 1.0,
+    "trading_symbol": "BFSL170726",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "HDFCBANK-7.95%-21-9-26-PVT",
     "exchange": "BSE",
     "isin": "INE040A08369",
@@ -108623,6 +109155,20 @@
     "exchange_token": "9221",
     "tick_size": 1.0,
     "trading_symbol": "866SCL25",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "BARON INFOTECH LTD.",
+    "exchange": "BSE",
+    "isin": "INE228B01017",
+    "instrument_type": "Z",
+    "instrument_key": "BSE_EQ|INE228B01017",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "532336",
+    "tick_size": 1.0,
+    "trading_symbol": "BARONINF",
     "qty_multiplier": 1.0
   },
   {
@@ -114241,6 +114787,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "KAFL-27-11-26-NCD",
+    "exchange": "BSE",
+    "isin": "INE01I507AW2",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE01I507AW2",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "940525",
+    "tick_size": 1.0,
+    "trading_symbol": "KAFL280725",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "PFCL-7.15%-8-9-26-PVT",
     "exchange": "BSE",
     "isin": "INE134E08LS5",
@@ -114783,6 +115343,20 @@
     "exchange_token": "144061",
     "tick_size": 5.0,
     "trading_symbol": "AZAD#",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "ATMA INDUSTRIES LIMITED",
+    "exchange": "BSE",
+    "isin": "INE805R01018",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE805R01018",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "539246",
+    "tick_size": 5.0,
+    "trading_symbol": "ATMAIND",
     "qty_multiplier": 1.0
   },
   {
@@ -115749,6 +116323,20 @@
     "exchange_token": "2216",
     "tick_size": 1.0,
     "trading_symbol": "ERFLNCDI",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "TTL-13-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE508G14JI8",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE508G14JI8",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "732293",
+    "tick_size": 1.0,
+    "trading_symbol": "TTL14826",
     "qty_multiplier": 1.0
   },
   {
@@ -119701,6 +120289,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "RRP DEFENSE LIMITED",
+    "exchange": "BSE",
+    "isin": "INE535P01015",
+    "instrument_type": "X",
+    "instrument_key": "BSE_EQ|INE535P01015",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "530929",
+    "tick_size": 5.0,
+    "trading_symbol": "RRPDEFENSE",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "INAVTata Mutual Fund - Permi",
     "exchange": "BSE",
     "isin": "INF277KA1984",
@@ -121055,6 +121657,20 @@
     "exchange_token": "938504",
     "tick_size": 1.0,
     "trading_symbol": "1050SFIL28",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "PITHAMPUR POLY PRODUCTS LTD.",
+    "exchange": "BSE",
+    "isin": "INE747D01012",
+    "instrument_type": "ZP",
+    "instrument_key": "BSE_EQ|INE747D01012",
+    "lot_size": 100,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "530683",
+    "tick_size": 1.0,
+    "trading_symbol": "PITHP",
     "qty_multiplier": 1.0
   },
   {
@@ -137424,6 +138040,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "STURDY INDUSTRIES LTD.",
+    "exchange": "BSE",
+    "isin": "INE134F01026",
+    "instrument_type": "Z",
+    "instrument_key": "BSE_EQ|INE134F01026",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "530611",
+    "tick_size": 1.0,
+    "trading_symbol": "STURDY",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "SBIAMC - SBINEQINAV",
     "exchange": "NSE",
@@ -137617,6 +138247,20 @@
     "exchange_token": "23166",
     "tick_size": 1.0,
     "trading_symbol": "RMFINARGG1",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "CMI LTD.",
+    "exchange": "BSE",
+    "isin": "INE981B01011",
+    "instrument_type": "Z",
+    "instrument_key": "BSE_EQ|INE981B01011",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "517330",
+    "tick_size": 1.0,
+    "trading_symbol": "CMICABLES",
     "qty_multiplier": 1.0
   },
   {
@@ -139073,6 +139717,20 @@
     "exchange_token": "756398",
     "tick_size": 1.0,
     "trading_symbol": "AADHARHFC",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "RAMA PETROCHEMICALS LTD.",
+    "exchange": "BSE",
+    "isin": "INE783A01013",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE783A01013",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "500358",
+    "tick_size": 1.0,
+    "trading_symbol": "RAMAPETRO",
     "qty_multiplier": 1.0
   },
   {
@@ -141453,6 +142111,20 @@
     "exchange_token": "532914",
     "tick_size": 1.0,
     "trading_symbol": "ARCOTECH",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "ENCODE PACKAGING INDIA LIMITED",
+    "exchange": "BSE",
+    "isin": "INE900O01014",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE900O01014",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "530733",
+    "tick_size": 1.0,
+    "trading_symbol": "ENCODE",
     "qty_multiplier": 1.0
   },
   {
@@ -146973,6 +147645,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "NFL-13-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE342T14GN1",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE342T14GN1",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "731689",
+    "tick_size": 1.0,
+    "trading_symbol": "NFL18526",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "KFL-ZC-25-10-26-NCD",
     "exchange": "BSE",
     "isin": "INE403Q07EJ4",
@@ -151663,6 +152349,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "KANDAGIRI SPINNING MILLS LTD.",
+    "exchange": "BSE",
+    "isin": "INE292D01019",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE292D01019",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "521242",
+    "tick_size": 1.0,
+    "trading_symbol": "KANDAGIRI",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "Syrma SGS Technology Limited",
     "exchange": "BSE",
     "isin": "INE0DYJ01015",
@@ -152320,6 +153020,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "NSE_EQ",
+    "name": "ICICIPRAMC - POWETFINAV",
+    "exchange": "NSE",
+    "isin": "DUMMY0000386",
+    "instrument_type": "EQ",
+    "instrument_key": "NSE_EQ|DUMMY0000386",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "767075",
+    "tick_size": 1.0,
+    "trading_symbol": "POWETFINAV",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "BSE_EQ",
     "name": "Aditya Birla Sun Life Mutual F",
     "exchange": "BSE",
@@ -152611,6 +153325,20 @@
     "exchange_token": "766671",
     "tick_size": 1.0,
     "trading_symbol": "NXT100INAV",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "AGMF - EHLDG",
+    "exchange": "NSE",
+    "isin": "INF2VOA30011",
+    "instrument_type": "SE",
+    "instrument_key": "NSE_EQ|INF2VOA30011",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "767072",
+    "tick_size": 1.0,
+    "trading_symbol": "EHLDG",
     "qty_multiplier": 1.0
   },
   {
@@ -153661,6 +154389,20 @@
     "exchange_token": "764413",
     "tick_size": 1.0,
     "trading_symbol": "MOMTALINAV",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "ARIS INTERNATIONAL LTD.",
+    "exchange": "BSE",
+    "isin": "INE588E01026",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE588E01026",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "531677",
+    "tick_size": 5.0,
+    "trading_symbol": "ARISINT",
     "qty_multiplier": 1.0
   },
   {
@@ -155915,6 +156657,20 @@
     "exchange_token": "731019",
     "tick_size": 1.0,
     "trading_symbol": "AFSL040226",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "AGMF - EHLRG",
+    "exchange": "NSE",
+    "isin": "INF2VOA30045",
+    "instrument_type": "SE",
+    "instrument_key": "NSE_EQ|INF2VOA30045",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "767074",
+    "tick_size": 1.0,
+    "trading_symbol": "EHLRG",
     "qty_multiplier": 1.0
   },
   {
@@ -159152,6 +159908,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "K-LIFESTYLE & INDUSTRIES LIMIT",
+    "exchange": "BSE",
+    "isin": "INE218A01028",
+    "instrument_type": "Z",
+    "instrument_key": "BSE_EQ|INE218A01028",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "514221",
+    "tick_size": 1.0,
+    "trading_symbol": "KLIFESTYL",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "DATA PATTERNS INDIA LTD",
     "exchange": "NSE",
@@ -160930,6 +161700,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "DFPL-13-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE422H14602",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE422H14602",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "732311",
+    "tick_size": 1.0,
+    "trading_symbol": "DFPL140826",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "SDL CG 5.38% 2025",
     "exchange": "NSE",
@@ -161851,6 +162635,20 @@
     "exchange_token": "7252",
     "tick_size": 1.0,
     "trading_symbol": "UTDGR30P13",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "RRP SEMICONDUCTOR LIMITED",
+    "exchange": "BSE",
+    "isin": "INE713N01013",
+    "instrument_type": "X",
+    "instrument_key": "BSE_EQ|INE713N01013",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "504346",
+    "tick_size": 5.0,
+    "trading_symbol": "RRP",
     "qty_multiplier": 1.0
   },
   {
@@ -164420,11 +165218,11 @@
     "name": "BLUE CHIP INDIA LIMITED",
     "exchange": "NSE",
     "isin": "INE657B01025",
-    "instrument_type": "BE",
+    "instrument_type": "BL",
     "instrument_key": "NSE_EQ|INE657B01025",
-    "lot_size": 1,
-    "freeze_quantity": 100000.0,
-    "exchange_token": "8650",
+    "lot_size": 999999999,
+    "freeze_quantity": 999999999.0,
+    "exchange_token": "12269",
     "tick_size": 1.0,
     "trading_symbol": "BLUECHIP",
     "qty_multiplier": 1.0
@@ -164434,11 +165232,11 @@
     "name": "BLUE CHIP INDIA LIMITED",
     "exchange": "NSE",
     "isin": "INE657B01025",
-    "instrument_type": "BL",
+    "instrument_type": "EQ",
     "instrument_key": "NSE_EQ|INE657B01025",
-    "lot_size": 999999999,
-    "freeze_quantity": 999999999.0,
-    "exchange_token": "12269",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "4681",
     "tick_size": 1.0,
     "trading_symbol": "BLUECHIP",
     "qty_multiplier": 1.0
@@ -165288,7 +166086,7 @@
     "name": "GIRIRAJ CIVIL DEVP LTD",
     "exchange": "BSE",
     "isin": "INE614Z01017",
-    "instrument_type": "NS",
+    "instrument_type": "NT",
     "instrument_key": "BSE_EQ|INE614Z01017",
     "lot_size": 250,
     "freeze_quantity": 100000.0,
@@ -166191,6 +166989,20 @@
     "exchange_token": "730913",
     "tick_size": 1.0,
     "trading_symbol": "ABHF090126",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "AUTOMOBILE PRODUCTS OF INDIA L",
+    "exchange": "BSE",
+    "isin": "INE0NY101012",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE0NY101012",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "505032",
+    "tick_size": 1.0,
+    "trading_symbol": "AUTOPRD",
     "qty_multiplier": 1.0
   },
   {
@@ -170716,6 +171528,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "INTERWORLD DIGITAL LTD.",
+    "exchange": "BSE",
+    "isin": "INE177D01020",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE177D01020",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "532072",
+    "tick_size": 1.0,
+    "trading_symbol": "INTERDIGI",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "ABSLNN50ET INAV",
     "exchange": "NSE",
@@ -170923,6 +171749,20 @@
     "exchange_token": "143427",
     "tick_size": 5.0,
     "trading_symbol": "MEDPLUS#",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "ADVIK LABORATORIES LTD.",
+    "exchange": "BSE",
+    "isin": "INE537C01019",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE537C01019",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "531686",
+    "tick_size": 1.0,
+    "trading_symbol": "ADVIKLA",
     "qty_multiplier": 1.0
   },
   {
@@ -174441,6 +175281,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "STARBEAM VENTURES LIMITED",
+    "exchange": "BSE",
+    "isin": "INE924N01024",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE924N01024",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "539175",
+    "tick_size": 1.0,
+    "trading_symbol": "STARBEAM",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "8.07% GOI 2017",
     "exchange": "BSE",
     "isin": "INY020010107",
@@ -175403,6 +176257,20 @@
     "exchange_token": "804882",
     "tick_size": 1.0,
     "trading_symbol": "182D290824",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "SYBLY INDUSTRIES LTD.",
+    "exchange": "BSE",
+    "isin": "INE080D01042",
+    "instrument_type": "Z",
+    "instrument_key": "BSE_EQ|INE080D01042",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "531499",
+    "tick_size": 1.0,
+    "trading_symbol": "SYBLY",
     "qty_multiplier": 1.0
   },
   {
@@ -180544,6 +181412,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "DFL-12-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE422H14594",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE422H14594",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "732296",
+    "tick_size": 1.0,
+    "trading_symbol": "DFL130826",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "SEC RE NCD 10.03% SR X",
     "exchange": "NSE",
@@ -181227,6 +182109,20 @@
     "exchange_token": "9736",
     "tick_size": 5.0,
     "trading_symbol": "HINDMOTOR",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "TCL-12-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE280A14617",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE280A14617",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "732312",
+    "tick_size": 1.0,
+    "trading_symbol": "TCL140826",
     "qty_multiplier": 1.0
   },
   {
@@ -185752,6 +186648,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "PREMIUM CAPITAL MARKET & INVES",
+    "exchange": "BSE",
+    "isin": "INE555D01019",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE555D01019",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "511660",
+    "tick_size": 1.0,
+    "trading_symbol": "PREMCAPM",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "AMRUTAJAN HEALTH LTD",
     "exchange": "NSE",
@@ -188360,6 +189270,20 @@
     "name": "SHFL 7.9123% 2026 SR 342",
     "exchange": "NSE",
     "isin": "INE667F07IU5",
+    "instrument_type": "N0",
+    "instrument_key": "NSE_EQ|INE667F07IU5",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "25016",
+    "tick_size": 1.0,
+    "trading_symbol": "79123SHF26",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "SHFL 7.9123% 2026 SR 342",
+    "exchange": "NSE",
+    "isin": "INE667F07IU5",
     "instrument_type": "U0",
     "instrument_key": "NSE_EQ|INE667F07IU5",
     "lot_size": 1,
@@ -189193,6 +190117,20 @@
     "exchange_token": "765525",
     "tick_size": 1.0,
     "trading_symbol": "LUMINO",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "POLYTEX INDIA LTD.",
+    "exchange": "BSE",
+    "isin": "INE012F01016",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE012F01016",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "512481",
+    "tick_size": 1.0,
+    "trading_symbol": "POLYTEX",
     "qty_multiplier": 1.0
   },
   {
@@ -206780,6 +207718,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "Unipro Technologies Limited",
+    "exchange": "BSE",
+    "isin": "INE448F01012",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE448F01012",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "540189",
+    "tick_size": 1.0,
+    "trading_symbol": "UPROTECH",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "AIG QIF SII RETAIL DP",
     "exchange": "NSE",
@@ -206805,6 +207757,20 @@
     "exchange_token": "6328",
     "tick_size": 1.0,
     "trading_symbol": "UTIRQP30P9",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "OSWAL YARNS LTD.",
+    "exchange": "BSE",
+    "isin": "INE670H01017",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE670H01017",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "514460",
+    "tick_size": 1.0,
+    "trading_symbol": "OSWAYRN",
     "qty_multiplier": 1.0
   },
   {
@@ -207169,6 +208135,20 @@
     "exchange_token": "756585",
     "tick_size": 1.0,
     "trading_symbol": "RADICO",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "INANI SECURITIES LTD.",
+    "exchange": "BSE",
+    "isin": "INE224C01014",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE224C01014",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "531672",
+    "tick_size": 1.0,
+    "trading_symbol": "INANISEC",
     "qty_multiplier": 1.0
   },
   {
@@ -208093,6 +209073,20 @@
     "exchange_token": "5862",
     "tick_size": 1.0,
     "trading_symbol": "935SCL28",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "NCPL-11.7%-29-11-26-PVT",
+    "exchange": "BSE",
+    "isin": "INE814O07550",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE814O07550",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "976211",
+    "tick_size": 1.0,
+    "trading_symbol": "117NCPL26",
     "qty_multiplier": 1.0
   },
   {
@@ -209073,6 +210067,20 @@
     "exchange_token": "210584",
     "tick_size": 5.0,
     "trading_symbol": "CPS",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "EDUCOMP SOLUTIONS LTD.",
+    "exchange": "BSE",
+    "isin": "INE216H01027",
+    "instrument_type": "Z",
+    "instrument_key": "BSE_EQ|INE216H01027",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "532696",
+    "tick_size": 1.0,
+    "trading_symbol": "EDUCOMP",
     "qty_multiplier": 1.0
   },
   {
@@ -213220,6 +214228,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "NMIL-12-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE870H14XS0",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE870H14XS0",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "732283",
+    "tick_size": 1.0,
+    "trading_symbol": "NMIL13826",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "SEC RE NCD 9.48% SR V",
     "exchange": "NSE",
@@ -216581,6 +217603,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "GHFL-13-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE02JD14898",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE02JD14898",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "732306",
+    "tick_size": 1.0,
+    "trading_symbol": "GHFL140826",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "GFL-19-6-26-CP",
     "exchange": "BSE",
     "isin": "INE02KN14697",
@@ -217683,6 +218719,20 @@
     "exchange_token": "541362",
     "tick_size": 1.0,
     "trading_symbol": "T54AD",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "KOIYA INTERNATIONAL LIMITED",
+    "exchange": "BSE",
+    "isin": "INE149B01015",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE149B01015",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "530565",
+    "tick_size": 1.0,
+    "trading_symbol": "KOIYAIN",
     "qty_multiplier": 1.0
   },
   {
@@ -219045,6 +220095,20 @@
   },
   {
     "segment": "NSE_EQ",
+    "name": "SIDBI 8.17% 2031 SR VIII",
+    "exchange": "NSE",
+    "isin": "INE556F08LJ5",
+    "instrument_type": "U0",
+    "instrument_key": "NSE_EQ|INE556F08LJ5",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "767070",
+    "tick_size": 1.0,
+    "trading_symbol": "817SIDBI31",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
     "name": "2.50%GOLDBONDS2025SR-XIII",
     "exchange": "NSE",
     "isin": "IN0020170158",
@@ -219405,6 +220469,20 @@
     "exchange_token": "21011",
     "tick_size": 1.0,
     "trading_symbol": "965SCL28B",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "NMIL-13-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE870H14XQ4",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE870H14XQ4",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "732294",
+    "tick_size": 1.0,
+    "trading_symbol": "NMIL14826",
     "qty_multiplier": 1.0
   },
   {
@@ -220175,6 +221253,20 @@
     "exchange_token": "16246",
     "tick_size": 5.0,
     "trading_symbol": "PBAINFRA",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "BFL-12-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE296A14D39",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE296A14D39",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "730557",
+    "tick_size": 1.0,
+    "trading_symbol": "BFL121125",
     "qty_multiplier": 1.0
   },
   {
@@ -221484,6 +222576,20 @@
     "name": "CEREBRA INT TECH LTD",
     "exchange": "NSE",
     "isin": "INE345B01019",
+    "instrument_type": "BZ",
+    "instrument_key": "NSE_EQ|INE345B01019",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "29016",
+    "tick_size": 1.0,
+    "trading_symbol": "CEREBRAINT",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "CEREBRA INT TECH LTD",
+    "exchange": "NSE",
+    "isin": "INE345B01019",
     "instrument_type": "EQ",
     "instrument_key": "NSE_EQ|INE345B01019",
     "lot_size": 1,
@@ -221547,6 +222653,20 @@
     "exchange_token": "804094",
     "tick_size": 1.0,
     "trading_symbol": "364TB060220",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "VFL-9.75%-28-11-26-SR-2-PVT",
+    "exchange": "BSE",
+    "isin": "INE448U07240",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE448U07240",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "975568",
+    "tick_size": 1.0,
+    "trading_symbol": "975VFL26",
     "qty_multiplier": 1.0
   },
   {
@@ -222037,6 +223157,62 @@
     "exchange_token": "761470",
     "tick_size": 5.0,
     "trading_symbol": "SHADOWFAX",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "VEEFIN SOLUTIONS LIMITED",
+    "exchange": "NSE",
+    "isin": "INE0Q0M01015",
+    "instrument_type": "BE",
+    "instrument_key": "NSE_EQ|INE0Q0M01015",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "767061",
+    "tick_size": 1.0,
+    "trading_symbol": "VEEFIN",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "VEEFIN SOLUTIONS LIMITED",
+    "exchange": "NSE",
+    "isin": "INE0Q0M01015",
+    "instrument_type": "BL",
+    "instrument_key": "NSE_EQ|INE0Q0M01015",
+    "lot_size": 999999999,
+    "freeze_quantity": 999999999.0,
+    "exchange_token": "767062",
+    "tick_size": 1.0,
+    "trading_symbol": "VEEFIN",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "VEEFIN SOLUTIONS LIMITED",
+    "exchange": "NSE",
+    "isin": "INE0Q0M01015",
+    "instrument_type": "IQ",
+    "instrument_key": "NSE_EQ|INE0Q0M01015",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "767063",
+    "tick_size": 1.0,
+    "trading_symbol": "VEEFIN",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "VEEFIN SOLUTIONS LIMITED",
+    "exchange": "NSE",
+    "isin": "INE0Q0M01015",
+    "instrument_type": "RL",
+    "instrument_key": "NSE_EQ|INE0Q0M01015",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "767060",
+    "tick_size": 1.0,
+    "trading_symbol": "VEEFIN",
     "qty_multiplier": 1.0
   },
   {
@@ -224067,6 +225243,20 @@
     "exchange_token": "3774",
     "tick_size": 1.0,
     "trading_symbol": "SMF544",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "REVATI MEDIA LIMITED",
+    "exchange": "BSE",
+    "isin": "INE270D01015",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE270D01015",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "524504",
+    "tick_size": 1.0,
+    "trading_symbol": "REVAMEDIA",
     "qty_multiplier": 1.0
   },
   {
@@ -228424,6 +229614,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "AVI PRODUCTS INDIA LIMITED",
+    "exchange": "BSE",
+    "isin": "INE316O01021",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE316O01021",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "523896",
+    "tick_size": 1.0,
+    "trading_symbol": "APIL",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "FRANTEMAMC - FIFMPS4DDP",
     "exchange": "NSE",
@@ -231196,6 +232400,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "GFL-13-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE02KN14796",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE02KN14796",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "732301",
+    "tick_size": 1.0,
+    "trading_symbol": "GFL140826",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "GOI TBILL 91D-23/06/22",
     "exchange": "NSE",
@@ -233156,6 +234374,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "BHARATIYA GLOBAL INFOMEDIA LTD",
+    "exchange": "BSE",
+    "isin": "INE224M01013",
+    "instrument_type": "Z",
+    "instrument_key": "BSE_EQ|INE224M01013",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "533499",
+    "tick_size": 1.0,
+    "trading_symbol": "BGLOBAL",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "FRANTEMAMC - FIMPS4BQDP",
     "exchange": "NSE",
@@ -233265,6 +234497,20 @@
     "exchange_token": "760180",
     "tick_size": 1.0,
     "trading_symbol": "GAUDIUMIVF",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "UCL-12-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE583D14907",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE583D14907",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "731648",
+    "tick_size": 1.0,
+    "trading_symbol": "UCL12526",
     "qty_multiplier": 1.0
   },
   {
@@ -236786,6 +238032,20 @@
     "name": "OIL AND NATURAL GAS CORP.",
     "exchange": "NSE",
     "isin": "INE213A01029",
+    "instrument_type": "T0",
+    "instrument_key": "NSE_EQ|INE213A01029",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "23258",
+    "tick_size": 1.0,
+    "trading_symbol": "ONGC",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "OIL AND NATURAL GAS CORP.",
+    "exchange": "NSE",
+    "isin": "INE213A01029",
     "instrument_type": "TL",
     "instrument_key": "NSE_EQ|INE213A01029",
     "lot_size": 999999999,
@@ -238277,6 +239537,20 @@
     "exchange_token": "751599",
     "tick_size": 1.0,
     "trading_symbol": "812LTFL29",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "VIJAY TEXTILES LTD.",
+    "exchange": "BSE",
+    "isin": "INE256G01033",
+    "instrument_type": "Z",
+    "instrument_key": "BSE_EQ|INE256G01033",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "530151",
+    "tick_size": 1.0,
+    "trading_symbol": "VIJAYTX",
     "qty_multiplier": 1.0
   },
   {
@@ -241402,6 +242676,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "NSE_EQ",
+    "name": "SALASAR EXTERIOR CONT LTD",
+    "exchange": "NSE",
+    "isin": "INE00Y701026",
+    "instrument_type": "SZ",
+    "instrument_key": "NSE_EQ|INE00Y701026",
+    "lot_size": 6250,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "1995",
+    "tick_size": 5.0,
+    "trading_symbol": "SECL",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "BSE_EQ",
     "name": "Sammaan Capital Limited",
     "exchange": "BSE",
@@ -242069,6 +243357,20 @@
     "lot_size": 999999999,
     "freeze_quantity": 999999999.0,
     "exchange_token": "17298",
+    "tick_size": 1.0,
+    "trading_symbol": "NAGAFERT",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "NAGARJUN FERT AND CHE LTD",
+    "exchange": "NSE",
+    "isin": "INE454M01024",
+    "instrument_type": "BZ",
+    "instrument_key": "NSE_EQ|INE454M01024",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "13060",
     "tick_size": 1.0,
     "trading_symbol": "NAGAFERT",
     "qty_multiplier": 1.0
@@ -247702,6 +249004,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "NWIL-13-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE523L14BU9",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE523L14BU9",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "732299",
+    "tick_size": 1.0,
+    "trading_symbol": "NWIL14826",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "MIRAEAMC - DEFENCE",
     "exchange": "NSE",
@@ -248924,11 +250240,11 @@
     "name": "SMARTEN POWER SYSTEMS LTD",
     "exchange": "NSE",
     "isin": "INE14GK01016",
-    "instrument_type": "SQ",
+    "instrument_type": "SM",
     "instrument_key": "NSE_EQ|INE14GK01016",
     "lot_size": 1200,
     "freeze_quantity": 100000.0,
-    "exchange_token": "757621",
+    "exchange_token": "757619",
     "tick_size": 5.0,
     "trading_symbol": "SMARTEN",
     "qty_multiplier": 1.0
@@ -248938,11 +250254,11 @@
     "name": "SMARTEN POWER SYSTEMS LTD",
     "exchange": "NSE",
     "isin": "INE14GK01016",
-    "instrument_type": "ST",
+    "instrument_type": "SQ",
     "instrument_key": "NSE_EQ|INE14GK01016",
     "lot_size": 1200,
     "freeze_quantity": 100000.0,
-    "exchange_token": "757622",
+    "exchange_token": "757621",
     "tick_size": 5.0,
     "trading_symbol": "SMARTEN",
     "qty_multiplier": 1.0
@@ -253628,6 +254944,20 @@
     "name": "CLC INDUSTRIES LIMITED",
     "exchange": "NSE",
     "isin": "INE376C01038",
+    "instrument_type": "BE",
+    "instrument_key": "NSE_EQ|INE376C01038",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "13846",
+    "tick_size": 1.0,
+    "trading_symbol": "CLCIND",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "CLC INDUSTRIES LIMITED",
+    "exchange": "NSE",
+    "isin": "INE376C01038",
     "instrument_type": "BL",
     "instrument_key": "NSE_EQ|INE376C01038",
     "lot_size": 999999999,
@@ -253915,6 +255245,20 @@
     "exchange_token": "805026",
     "tick_size": 1.0,
     "trading_symbol": "182TB14825",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "FRONTIER CAPITAL LIMITED",
+    "exchange": "BSE",
+    "isin": "INE977E01013",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE977E01013",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "508980",
+    "tick_size": 1.0,
+    "trading_symbol": "FRONTCAP",
     "qty_multiplier": 1.0
   },
   {
@@ -258160,6 +259504,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "UML-7.11%-27-11-26-PVT",
+    "exchange": "BSE",
+    "isin": "INE405E08077",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE405E08077",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "977046",
+    "tick_size": 1.0,
+    "trading_symbol": "711UML26",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "NHIT 0% 34 SR I STRPP A",
     "exchange": "NSE",
@@ -260600,11 +261958,11 @@
     "name": "ARVEE LABORATORIES I LTD",
     "exchange": "NSE",
     "isin": "INE006Z01016",
-    "instrument_type": "BE",
+    "instrument_type": "BL",
     "instrument_key": "NSE_EQ|INE006Z01016",
-    "lot_size": 1,
-    "freeze_quantity": 100000.0,
-    "exchange_token": "2820",
+    "lot_size": 999999999,
+    "freeze_quantity": 999999999.0,
+    "exchange_token": "2824",
     "tick_size": 1.0,
     "trading_symbol": "ARVEE",
     "qty_multiplier": 1.0
@@ -260614,11 +261972,11 @@
     "name": "ARVEE LABORATORIES I LTD",
     "exchange": "NSE",
     "isin": "INE006Z01016",
-    "instrument_type": "BL",
+    "instrument_type": "EQ",
     "instrument_key": "NSE_EQ|INE006Z01016",
-    "lot_size": 999999999,
-    "freeze_quantity": 999999999.0,
-    "exchange_token": "2824",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "2814",
     "tick_size": 1.0,
     "trading_symbol": "ARVEE",
     "qty_multiplier": 1.0
@@ -274064,6 +275422,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "LASER DIAMONDS LTD.",
+    "exchange": "BSE",
+    "isin": "INE995E01015",
+    "instrument_type": "P",
+    "instrument_key": "BSE_EQ|INE995E01015",
+    "lot_size": 100,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "531164",
+    "tick_size": 1.0,
+    "trading_symbol": "LADIAMO",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "ALKALI METALS LTD",
     "exchange": "NSE",
@@ -275142,6 +276514,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "GSL SECURITIES LTD.",
+    "exchange": "BSE",
+    "isin": "INE721D01017",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE721D01017",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "530469",
+    "tick_size": 1.0,
+    "trading_symbol": "GSLSEC",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "SDIL RESET 2041",
     "exchange": "NSE",
@@ -276021,6 +277407,20 @@
     "exchange_token": "212273",
     "tick_size": 5.0,
     "trading_symbol": "DHANLAXMI",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "BYLD Capital Finance Limited",
+    "exchange": "BSE",
+    "isin": "INE759D01017",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE759D01017",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "511730",
+    "tick_size": 1.0,
+    "trading_symbol": "BYLD",
     "qty_multiplier": 1.0
   },
   {
@@ -278643,6 +280043,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "ISHAAN INFRASTRUCTURE AND SHEL",
+    "exchange": "BSE",
+    "isin": "INE818R01011",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE818R01011",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "540134",
+    "tick_size": 1.0,
+    "trading_symbol": "IISL",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "Cyber Media (India) Ltd.",
     "exchange": "BSE",
     "isin": "INE278G20011",
@@ -280746,6 +282160,20 @@
     "name": "NLC INDIA LIMITED",
     "exchange": "NSE",
     "isin": "INE589A01014",
+    "instrument_type": "T0",
+    "instrument_key": "NSE_EQ|INE589A01014",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "30377",
+    "tick_size": 1.0,
+    "trading_symbol": "NLCINDIA",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "NLC INDIA LIMITED",
+    "exchange": "NSE",
+    "isin": "INE589A01014",
     "instrument_type": "TL",
     "instrument_key": "NSE_EQ|INE589A01014",
     "lot_size": 999999999,
@@ -281947,6 +283375,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "CHASE BRIGHT STEEL LTD.",
+    "exchange": "BSE",
+    "isin": "NA",
+    "instrument_type": "Y",
+    "instrument_key": "BSE_EQ|NA",
+    "lot_size": 50,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "504671",
+    "tick_size": 1.0,
+    "trading_symbol": "CHASBRT",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "ALL METAL PROCESS INDUSTRIES L",
     "exchange": "BSE",
     "isin": "NA",
@@ -282657,6 +284099,20 @@
     "exchange_token": "10942",
     "tick_size": 1.0,
     "trading_symbol": "SFMP65DR",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "OSCAR GLOBAL LTD.",
+    "exchange": "BSE",
+    "isin": "INE473F01010",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE473F01010",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "530173",
+    "tick_size": 1.0,
+    "trading_symbol": "OSCARGLO",
     "qty_multiplier": 1.0
   },
   {
@@ -284621,6 +286077,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "G-TECH INFO-TRAINING LTD.",
+    "exchange": "BSE",
+    "isin": "INE634D01038",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE634D01038",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "532139",
+    "tick_size": 1.0,
+    "trading_symbol": "GTEIT",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "9.90% GOI LOAN 2005/04/22",
     "exchange": "BSE",
     "isin": "INY020000017",
@@ -285391,6 +286861,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "Kkalpana Plastick Limited",
+    "exchange": "BSE",
+    "isin": "INE465K01016",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE465K01016",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "523652",
+    "tick_size": 1.0,
+    "trading_symbol": "KKPLASTICK",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "FROG INNOVATIONS LIMITED",
     "exchange": "BSE",
     "isin": "INE385O01018",
@@ -285632,11 +287116,11 @@
     "name": "VIAZ TYRES LIMITED",
     "exchange": "NSE",
     "isin": "INE0MO401019",
-    "instrument_type": "SQ",
+    "instrument_type": "SM",
     "instrument_key": "NSE_EQ|INE0MO401019",
     "lot_size": 2000,
     "freeze_quantity": 100000.0,
-    "exchange_token": "14322",
+    "exchange_token": "14316",
     "tick_size": 5.0,
     "trading_symbol": "VIAZ",
     "qty_multiplier": 1.0
@@ -285646,11 +287130,11 @@
     "name": "VIAZ TYRES LIMITED",
     "exchange": "NSE",
     "isin": "INE0MO401019",
-    "instrument_type": "ST",
+    "instrument_type": "SQ",
     "instrument_key": "NSE_EQ|INE0MO401019",
     "lot_size": 2000,
     "freeze_quantity": 100000.0,
-    "exchange_token": "14325",
+    "exchange_token": "14322",
     "tick_size": 5.0,
     "trading_symbol": "VIAZ",
     "qty_multiplier": 1.0
@@ -285975,6 +287459,20 @@
     "exchange_token": "15600",
     "tick_size": 1.0,
     "trading_symbol": "BURNPUR",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "UNITED TEXTILES LTD.",
+    "exchange": "BSE",
+    "isin": "INE727E01012",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE727E01012",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "521188",
+    "tick_size": 1.0,
+    "trading_symbol": "UNITEDTE",
     "qty_multiplier": 1.0
   },
   {
@@ -286675,6 +288173,20 @@
     "exchange_token": "9101",
     "tick_size": 1.0,
     "trading_symbol": "SREIBNPNCD",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "RL-13-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE891D14D01",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE891D14D01",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "732298",
+    "tick_size": 1.0,
+    "trading_symbol": "RL140826A",
     "qty_multiplier": 1.0
   },
   {
@@ -287942,6 +289454,20 @@
     "name": "RAJVIR INDUSTRIES LIMITED",
     "exchange": "NSE",
     "isin": "INE011H01014",
+    "instrument_type": "BZ",
+    "instrument_key": "NSE_EQ|INE011H01014",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "6259",
+    "tick_size": 1.0,
+    "trading_symbol": "RAJVIR",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "RAJVIR INDUSTRIES LIMITED",
+    "exchange": "NSE",
+    "isin": "INE011H01014",
     "instrument_type": "EQ",
     "instrument_key": "NSE_EQ|INE011H01014",
     "lot_size": 1,
@@ -289044,6 +290570,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "IMPEX FERRO TECH LTD.",
+    "exchange": "BSE",
+    "isin": "INE691G01015",
+    "instrument_type": "Z",
+    "instrument_key": "BSE_EQ|INE691G01015",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "532614",
+    "tick_size": 1.0,
+    "trading_symbol": "IMPEXFERRO",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "VRAJ IRON AND STEEL LTD",
     "exchange": "NSE",
@@ -289367,6 +290907,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "AEL-12-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE423A14ZJ7",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE423A14ZJ7",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "732093",
+    "tick_size": 1.0,
+    "trading_symbol": "AEL140726",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "AEL-15-10-26-CP",
     "exchange": "BSE",
     "isin": "INE423A14ZB4",
@@ -289503,6 +291057,20 @@
     "exchange_token": "804590",
     "tick_size": 1.0,
     "trading_symbol": "91TB210722",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "PAOS INDUSTRIES LIMITED",
+    "exchange": "BSE",
+    "isin": "INE791C01012",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE791C01012",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "530291",
+    "tick_size": 1.0,
+    "trading_symbol": "PAOS",
     "qty_multiplier": 1.0
   },
   {
@@ -289853,6 +291421,20 @@
     "exchange_token": "731556",
     "tick_size": 1.0,
     "trading_symbol": "AEL27426",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "AKCFL-13-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE197P14363",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE197P14363",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "732302",
+    "tick_size": 1.0,
+    "trading_symbol": "AKCFL14826",
     "qty_multiplier": 1.0
   },
   {
@@ -290669,6 +292251,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "ASIA CAPITAL LIMITED",
+    "exchange": "BSE",
+    "isin": "INE131Q01011",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE131Q01011",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "538777",
+    "tick_size": 1.0,
+    "trading_symbol": "ASIACAP",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "182TB010623",
     "exchange": "BSE",
     "isin": "IN002022Y369",
@@ -291041,6 +292637,20 @@
     "lot_size": 1,
     "freeze_quantity": 100000.0,
     "exchange_token": "15947",
+    "tick_size": 1.0,
+    "trading_symbol": "IRB",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "IRB INFRA DEV LTD.",
+    "exchange": "NSE",
+    "isin": "INE821I01022",
+    "instrument_type": "T0",
+    "instrument_key": "NSE_EQ|INE821I01022",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "30344",
     "tick_size": 1.0,
     "trading_symbol": "IRB",
     "qty_multiplier": 1.0
@@ -294407,6 +296017,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "HEMO ORGANIC LIMITED",
+    "exchange": "BSE",
+    "isin": "INE422G01015",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE422G01015",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "524590",
+    "tick_size": 1.0,
+    "trading_symbol": "HEMORGANIC",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "ABHFL-9.10%-13-7-26-PVT",
     "exchange": "BSE",
     "isin": "INE831R08035",
@@ -295260,6 +296884,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "B. P. CAPITAL LTD",
+    "exchange": "BSE",
+    "isin": "INE947C01010",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE947C01010",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "536965",
+    "tick_size": 1.0,
+    "trading_symbol": "BPCAP",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "SCL 9.02% SR V",
     "exchange": "NSE",
@@ -296025,6 +297663,20 @@
     "lot_size": 1,
     "freeze_quantity": 100000.0,
     "exchange_token": "15806",
+    "tick_size": 10.0,
+    "trading_symbol": "GODFRYPHLP",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "GODFREY PHILLIPS INDIA LT",
+    "exchange": "NSE",
+    "isin": "INE260B01028",
+    "instrument_type": "T0",
+    "instrument_key": "NSE_EQ|INE260B01028",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "30334",
     "tick_size": 10.0,
     "trading_symbol": "GODFRYPHLP",
     "qty_multiplier": 1.0
@@ -296851,6 +298503,20 @@
     "lot_size": 999999999,
     "freeze_quantity": 999999999.0,
     "exchange_token": "12469",
+    "tick_size": 1.0,
+    "trading_symbol": "IMPEXFERRO",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "IMPEX FERRO TECH LIMITED",
+    "exchange": "NSE",
+    "isin": "INE691G01015",
+    "instrument_type": "BZ",
+    "instrument_key": "NSE_EQ|INE691G01015",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "25881",
     "tick_size": 1.0,
     "trading_symbol": "IMPEXFERRO",
     "qty_multiplier": 1.0
@@ -299334,6 +301000,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "Encash Entertainment Limited",
+    "exchange": "BSE",
+    "isin": "INE552Q01018",
+    "instrument_type": "MT",
+    "instrument_key": "BSE_EQ|INE552Q01018",
+    "lot_size": 3000,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "538684",
+    "tick_size": 1.0,
+    "trading_symbol": "ENCASH",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "DLCEMENTNPP13-DEC-99DEPO",
     "exchange": "NSE",
@@ -301333,6 +303013,20 @@
     "exchange_token": "210632",
     "tick_size": 5.0,
     "trading_symbol": "VISDEM",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "MSR INDIA LTD.",
+    "exchange": "BSE",
+    "isin": "INE331L01026",
+    "instrument_type": "Z",
+    "instrument_key": "BSE_EQ|INE331L01026",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "508922",
+    "tick_size": 1.0,
+    "trading_symbol": "MSRINDIA",
     "qty_multiplier": 1.0
   },
   {
@@ -303587,6 +305281,20 @@
     "exchange_token": "24462",
     "tick_size": 1.0,
     "trading_symbol": "EVINDIA",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "SESHACHAL TECHNOLOGIES LTD.",
+    "exchange": "BSE",
+    "isin": "INE331F01028",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE331F01028",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "531794",
+    "tick_size": 1.0,
+    "trading_symbol": "SESHACHAL",
     "qty_multiplier": 1.0
   },
   {
@@ -306419,6 +308127,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "APSEZL-8.24%-27-11-26-PVT",
+    "exchange": "BSE",
+    "isin": "INE742F07411",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE742F07411",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "955311",
+    "tick_size": 1.0,
+    "trading_symbol": "824APSEZ26",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "SL-16-3-26-CP",
     "exchange": "BSE",
     "isin": "INE211H14AJ4",
@@ -309232,6 +310954,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "Satani Bearings Ltd.",
+    "exchange": "BSE",
+    "isin": "INE498D01012",
+    "instrument_type": "X",
+    "instrument_key": "BSE_EQ|INE498D01012",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "505703",
+    "tick_size": 5.0,
+    "trading_symbol": "SATANIBRG",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "GYFTR LIMITED",
     "exchange": "NSE",
@@ -310871,6 +312607,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "DIAMANT INFRASTRUCTURE LIMITED",
+    "exchange": "BSE",
+    "isin": "INE206I01026",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE206I01026",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "508860",
+    "tick_size": 1.0,
+    "trading_symbol": "DIAMANT",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "AEL-23-7-26-CP",
     "exchange": "BSE",
     "isin": "INE423A14YW3",
@@ -312015,6 +313765,20 @@
     "exchange_token": "199086",
     "tick_size": 1.0,
     "trading_symbol": "AXISHETINAV",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "AKCFL-12-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE197P14355",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE197P14355",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "732279",
+    "tick_size": 1.0,
+    "trading_symbol": "AKCFL12826",
     "qty_multiplier": 1.0
   },
   {
@@ -324328,6 +326092,20 @@
     "name": "CMI LIMITED",
     "exchange": "NSE",
     "isin": "INE981B01011",
+    "instrument_type": "BZ",
+    "instrument_key": "NSE_EQ|INE981B01011",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "19676",
+    "tick_size": 1.0,
+    "trading_symbol": "CMICABLES",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "CMI LIMITED",
+    "exchange": "NSE",
+    "isin": "INE981B01011",
     "instrument_type": "EQ",
     "instrument_key": "NSE_EQ|INE981B01011",
     "lot_size": 1,
@@ -328245,6 +330023,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "BHARAT TEXTILES & PROOFING IND",
+    "exchange": "BSE",
+    "isin": "INE201N01019",
+    "instrument_type": "P",
+    "instrument_key": "BSE_EQ|INE201N01019",
+    "lot_size": 100,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "531029",
+    "tick_size": 1.0,
+    "trading_symbol": "BHATEXT",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "NCSL-22-10-26-CP",
     "exchange": "BSE",
     "isin": "INE525L14190",
@@ -331073,6 +332865,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "Purohit Construction Limited",
+    "exchange": "BSE",
+    "isin": "INE147J01012",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE147J01012",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "538993",
+    "tick_size": 1.0,
+    "trading_symbol": "PUROHITCON",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "NIRMAN AGRI GENTICS LTD",
     "exchange": "BSE",
     "isin": "INE0OK701014",
@@ -331167,6 +332973,20 @@
     "exchange_token": "804823",
     "tick_size": 1.0,
     "trading_symbol": "364D101024",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "2.50%GOLDBONDS2026SR-III",
+    "exchange": "NSE",
+    "isin": "IN0020180314",
+    "instrument_type": "GB",
+    "instrument_key": "NSE_EQ|IN0020180314",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "6355",
+    "tick_size": 1.0,
+    "trading_symbol": "SGBNOV26",
     "qty_multiplier": 1.0
   },
   {
@@ -332245,6 +334065,20 @@
     "exchange_token": "14416",
     "tick_size": 5.0,
     "trading_symbol": "SRIVASAVI",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "KMIL-8.2185%-27-11-26-PVT",
+    "exchange": "BSE",
+    "isin": "INE975F07IO5",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE975F07IO5",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "975168",
+    "tick_size": 1.0,
+    "trading_symbol": "82185KMI26",
     "qty_multiplier": 1.0
   },
   {
@@ -333505,6 +335339,20 @@
     "exchange_token": "9970",
     "tick_size": 1.0,
     "trading_symbol": "POONAWALLA",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "IFPL-12-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE879F14MG3",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE879F14MG3",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "730827",
+    "tick_size": 1.0,
+    "trading_symbol": "IFPL191225",
     "qty_multiplier": 1.0
   },
   {
@@ -340257,6 +342105,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "P.M.TELELINNKS LTD.",
+    "exchange": "BSE",
+    "isin": "INE092C01015",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE092C01015",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "513403",
+    "tick_size": 1.0,
+    "trading_symbol": "PMTELELIN",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "GCCL INFRASTRUCTURE & PROJECTS",
     "exchange": "BSE",
     "isin": "INE438F01013",
@@ -340771,6 +342633,20 @@
     "exchange_token": "542080",
     "tick_size": 1.0,
     "trading_symbol": "IPRU9407",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "SEL MANUFACTURING CO LTD",
+    "exchange": "NSE",
+    "isin": "INE105I01020",
+    "instrument_type": "BE",
+    "instrument_key": "NSE_EQ|INE105I01020",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "6274",
+    "tick_size": 1.0,
+    "trading_symbol": "SELMC",
     "qty_multiplier": 1.0
   },
   {
@@ -342577,6 +344453,20 @@
     "exchange_token": "211774",
     "tick_size": 5.0,
     "trading_symbol": "SATIPOLY",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "STARCOM INFORMATION TECHNOLOGY",
+    "exchange": "BSE",
+    "isin": "INE347I01010",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE347I01010",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "531616",
+    "tick_size": 1.0,
+    "trading_symbol": "STARCOM",
     "qty_multiplier": 1.0
   },
   {
@@ -344932,6 +346822,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "RL-12-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE891D14C93",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE891D14C93",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "732297",
+    "tick_size": 1.0,
+    "trading_symbol": "RL140826",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "ICICIPRAMC - IPRU8607",
     "exchange": "NSE",
@@ -346511,6 +348415,20 @@
     "exchange_token": "1759",
     "tick_size": 1.0,
     "trading_symbol": "868NHB29",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "JPT SECURITIES LTD.",
+    "exchange": "BSE",
+    "isin": "INE630C01012",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE630C01012",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "530985",
+    "tick_size": 1.0,
+    "trading_symbol": "JPTSEC",
     "qty_multiplier": 1.0
   },
   {
@@ -348867,6 +350785,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "TEJASSVI AAHARAM LIMITED",
+    "exchange": "BSE",
+    "isin": "INE173E01019",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE173E01019",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "531628",
+    "tick_size": 1.0,
+    "trading_symbol": "TEJASSVI",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "INAV ICICI PRUDENTIAL LIQUI",
     "exchange": "BSE",
     "isin": "INF109KC1KT9",
@@ -349157,6 +351089,20 @@
     "exchange_token": "804865",
     "tick_size": 1.0,
     "trading_symbol": "364D160125",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "AVISHKAR INFRA REALTY LIMITED",
+    "exchange": "BSE",
+    "isin": "INE433O01024",
+    "instrument_type": "X",
+    "instrument_key": "BSE_EQ|INE433O01024",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "508929",
+    "tick_size": 5.0,
+    "trading_symbol": "AIRLTD",
     "qty_multiplier": 1.0
   },
   {
@@ -349553,6 +351499,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "Seksaria Finance Limited",
+    "exchange": "BSE",
+    "isin": "INE0IBX01013",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE0IBX01013",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "544907",
+    "tick_size": 5.0,
+    "trading_symbol": "FINANCE",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "INAVDSP Mutual Fund03",
     "exchange": "BSE",
     "isin": "INF740KA1YH2",
@@ -349724,11 +351684,11 @@
     "name": "SPEL SEMICONDUCTOR LTD",
     "exchange": "NSE",
     "isin": "INE252A01019",
-    "instrument_type": "BL",
+    "instrument_type": "BE",
     "instrument_key": "NSE_EQ|INE252A01019",
-    "lot_size": 999999999,
-    "freeze_quantity": 999999999.0,
-    "exchange_token": "764922",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "764923",
     "tick_size": 1.0,
     "trading_symbol": "SPELS",
     "qty_multiplier": 1.0
@@ -349738,11 +351698,11 @@
     "name": "SPEL SEMICONDUCTOR LTD",
     "exchange": "NSE",
     "isin": "INE252A01019",
-    "instrument_type": "EQ",
+    "instrument_type": "BL",
     "instrument_key": "NSE_EQ|INE252A01019",
-    "lot_size": 1,
-    "freeze_quantity": 100000.0,
-    "exchange_token": "764920",
+    "lot_size": 999999999,
+    "freeze_quantity": 999999999.0,
+    "exchange_token": "764922",
     "tick_size": 1.0,
     "trading_symbol": "SPELS",
     "qty_multiplier": 1.0
@@ -351747,6 +353707,20 @@
     "exchange_token": "804795",
     "tick_size": 1.0,
     "trading_symbol": "182TB080224",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "ASHOKA REFINERIES LTD.",
+    "exchange": "BSE",
+    "isin": "INE760M01016",
+    "instrument_type": "P",
+    "instrument_key": "BSE_EQ|INE760M01016",
+    "lot_size": 100,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "526983",
+    "tick_size": 1.0,
+    "trading_symbol": "ASHOKRE",
     "qty_multiplier": 1.0
   },
   {
@@ -355979,6 +357953,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "OSWAL LEASING LTD.",
+    "exchange": "BSE",
+    "isin": "INE811Q01018",
+    "instrument_type": "P",
+    "instrument_key": "BSE_EQ|INE811Q01018",
+    "lot_size": 50,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "509099",
+    "tick_size": 1.0,
+    "trading_symbol": "OSWALEA",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "ICICI Prudential Mutual Fund",
     "exchange": "BSE",
     "isin": "INF109KA1Y76",
@@ -356773,6 +358761,20 @@
     "exchange_token": "10569",
     "tick_size": 1.0,
     "trading_symbol": "RAMAPHO",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "SOVEREIGN GOLD BOND 2019 SERIE",
+    "exchange": "BSE",
+    "isin": "IN0020180314",
+    "instrument_type": "G",
+    "instrument_key": "BSE_EQ|IN0020180314",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "800289",
+    "tick_size": 1.0,
+    "trading_symbol": "SGBNOV26",
     "qty_multiplier": 1.0
   },
   {
@@ -362979,6 +364981,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "SEL MANUFACTURING COMPANY LTD.",
+    "exchange": "BSE",
+    "isin": "INE105I01020",
+    "instrument_type": "T",
+    "instrument_key": "BSE_EQ|INE105I01020",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "532886",
+    "tick_size": 1.0,
+    "trading_symbol": "SELMC",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "KODY TECHNOLAB LIMITED",
     "exchange": "BSE",
     "isin": "INE0Q7P01013",
@@ -364571,6 +366587,20 @@
     "exchange_token": "199071",
     "tick_size": 1.0,
     "trading_symbol": "MANXT50INAV",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "ALCHEMIST CORPORATION LTD.",
+    "exchange": "BSE",
+    "isin": "INE057D01016",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE057D01016",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "531409",
+    "tick_size": 1.0,
+    "trading_symbol": "ALCHCORP",
     "qty_multiplier": 1.0
   },
   {
@@ -370385,6 +372415,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "WOODSVILLA LTD.",
+    "exchange": "BSE",
+    "isin": "INE374J01020",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE374J01020",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "526959",
+    "tick_size": 1.0,
+    "trading_symbol": "WOODSVILA",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "SBI Mutual Fund",
     "exchange": "BSE",
     "isin": "INF200KA10V3",
@@ -371396,6 +373440,20 @@
     "name": "SAFARI IND (INDIA) LTD",
     "exchange": "NSE",
     "isin": "INE429E01023",
+    "instrument_type": "T0",
+    "instrument_key": "NSE_EQ|INE429E01023",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "29390",
+    "tick_size": 10.0,
+    "trading_symbol": "SAFARI",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "SAFARI IND (INDIA) LTD",
+    "exchange": "NSE",
+    "isin": "INE429E01023",
     "instrument_type": "TL",
     "instrument_key": "NSE_EQ|INE429E01023",
     "lot_size": 999999999,
@@ -372302,6 +374360,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "AFL-6.50%-26-11-26-PVT",
+    "exchange": "BSE",
+    "isin": "INE216P07217",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE216P07217",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "973602",
+    "tick_size": 1.0,
+    "trading_symbol": "65AFL26",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "VCCL 12% 2029 SR I",
     "exchange": "NSE",
@@ -373044,6 +375116,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "SARUP INDUSTRIES LTD.",
+    "exchange": "BSE",
+    "isin": "INE305D01019",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE305D01019",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "514412",
+    "tick_size": 5.0,
+    "trading_symbol": "SARUPINDUS",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "GANGA FORGING LIMITED",
     "exchange": "NSE",
@@ -373699,6 +375785,20 @@
     "exchange_token": "756652",
     "tick_size": 1.0,
     "trading_symbol": "IREDA",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "IFPL-13-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE879F14NQ0",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE879F14NQ0",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "732310",
+    "tick_size": 1.0,
+    "trading_symbol": "IFPL14826",
     "qty_multiplier": 1.0
   },
   {
@@ -383544,6 +385644,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "DUKE OFFSHORE LTD.",
+    "exchange": "BSE",
+    "isin": "INE397G01019",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE397G01019",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "531471",
+    "tick_size": 5.0,
+    "trading_symbol": "DUKEOFS",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "BAJEL PROJECTS LIMITED",
     "exchange": "NSE",
@@ -387762,6 +389876,20 @@
     "name": "EDUCOMP SOLUTIONS LTD",
     "exchange": "NSE",
     "isin": "INE216H01027",
+    "instrument_type": "BZ",
+    "instrument_key": "NSE_EQ|INE216H01027",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "21747",
+    "tick_size": 1.0,
+    "trading_symbol": "EDUCOMP",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "EDUCOMP SOLUTIONS LTD",
+    "exchange": "NSE",
+    "isin": "INE216H01027",
     "instrument_type": "EQ",
     "instrument_key": "NSE_EQ|INE216H01027",
     "lot_size": 1,
@@ -388875,6 +391003,20 @@
     "exchange_token": "29712",
     "tick_size": 10.0,
     "trading_symbol": "QPOWER",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "ADLINE CHEM LAB LIMITED",
+    "exchange": "BSE",
+    "isin": "INE276T01018",
+    "instrument_type": "P",
+    "instrument_key": "BSE_EQ|INE276T01018",
+    "lot_size": 100,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "524604",
+    "tick_size": 1.0,
+    "trading_symbol": "ADLINE",
     "qty_multiplier": 1.0
   },
   {
@@ -391706,6 +393848,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "SMAART TECH SERVICES LIMITED",
+    "exchange": "BSE",
+    "isin": "INE207B01011",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE207B01011",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "523449",
+    "tick_size": 5.0,
+    "trading_symbol": "SMAART",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "ABCL 7.6100% 2035 SR F1",
     "exchange": "NSE",
@@ -391903,6 +394059,20 @@
   },
   {
     "segment": "NSE_EQ",
+    "name": "ABCL 8.78% 2031 SR H2",
+    "exchange": "NSE",
+    "isin": "INE674K07184",
+    "instrument_type": "U0",
+    "instrument_key": "NSE_EQ|INE674K07184",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "767078",
+    "tick_size": 1.0,
+    "trading_symbol": "878ABCL31",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
     "name": "KOTAKMAMC - KTK210DG",
     "exchange": "NSE",
     "isin": "INF174K011Q0",
@@ -392025,6 +394195,20 @@
     "exchange_token": "28093",
     "tick_size": 5.0,
     "trading_symbol": "SFML",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "ABCL 8.78% 2029 SR H1",
+    "exchange": "NSE",
+    "isin": "INE674K07176",
+    "instrument_type": "U0",
+    "instrument_key": "NSE_EQ|INE674K07176",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "767080",
+    "tick_size": 1.0,
+    "trading_symbol": "878ABCL29",
     "qty_multiplier": 1.0
   },
   {
@@ -392599,6 +394783,20 @@
     "exchange_token": "536343",
     "tick_size": 1.0,
     "trading_symbol": "BSLFTPHRRQ",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "Aananda Lakshmi Spinning Mills",
+    "exchange": "BSE",
+    "isin": "INE197R01010",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE197R01010",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "539096",
+    "tick_size": 1.0,
+    "trading_symbol": "AANANDALAK",
     "qty_multiplier": 1.0
   },
   {
@@ -394293,6 +396491,20 @@
     "exchange_token": "21635",
     "tick_size": 1.0,
     "trading_symbol": "UTIDQP27P6",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "COLAB PLATFORMS LIMITED",
+    "exchange": "BSE",
+    "isin": "INE317W01030",
+    "instrument_type": "B",
+    "instrument_key": "BSE_EQ|INE317W01030",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "542866",
+    "tick_size": 5.0,
+    "trading_symbol": "COLAB",
     "qty_multiplier": 1.0
   },
   {
@@ -403032,6 +405244,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "BINNY MILLS LTD.",
+    "exchange": "BSE",
+    "isin": "INE160L01011",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE160L01011",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "535620",
+    "tick_size": 5.0,
+    "trading_symbol": "BINNYMILLS",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "BELDING INDIA LIMITED",
     "exchange": "NSE",
@@ -403519,6 +405745,20 @@
     "exchange_token": "4230",
     "tick_size": 1.0,
     "trading_symbol": "ABSLFTQPDN",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "BOB-9.75%-PERPETUAL-PVT",
+    "exchange": "BSE",
+    "isin": "INE028A08265",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE028A08265",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "973596",
+    "tick_size": 1.0,
+    "trading_symbol": "795BOBPER",
     "qty_multiplier": 1.0
   },
   {
@@ -404219,6 +406459,20 @@
     "exchange_token": "106395",
     "tick_size": 5.0,
     "trading_symbol": "COROMANDEL#",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "NAGARJUNA FERTILIZERS AND CHEM",
+    "exchange": "BSE",
+    "isin": "INE454M01024",
+    "instrument_type": "Z",
+    "instrument_key": "BSE_EQ|INE454M01024",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "539917",
+    "tick_size": 1.0,
+    "trading_symbol": "NAGAFERT",
     "qty_multiplier": 1.0
   },
   {
@@ -406564,6 +408818,20 @@
     "name": "GIRIRAJ CIVIL DEVP LTD",
     "exchange": "NSE",
     "isin": "INE614Z01017",
+    "instrument_type": "SM",
+    "instrument_key": "NSE_EQ|INE614Z01017",
+    "lot_size": 250,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "2365",
+    "tick_size": 5.0,
+    "trading_symbol": "GIRIRAJ",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "GIRIRAJ CIVIL DEVP LTD",
+    "exchange": "NSE",
+    "isin": "INE614Z01017",
     "instrument_type": "SO",
     "instrument_key": "NSE_EQ|INE614Z01017",
     "lot_size": 250,
@@ -406583,20 +408851,6 @@
     "lot_size": 250,
     "freeze_quantity": 100000.0,
     "exchange_token": "2375",
-    "tick_size": 5.0,
-    "trading_symbol": "GIRIRAJ",
-    "qty_multiplier": 1.0
-  },
-  {
-    "segment": "NSE_EQ",
-    "name": "GIRIRAJ CIVIL DEVP LTD",
-    "exchange": "NSE",
-    "isin": "INE614Z01017",
-    "instrument_type": "ST",
-    "instrument_key": "NSE_EQ|INE614Z01017",
-    "lot_size": 250,
-    "freeze_quantity": 100000.0,
-    "exchange_token": "2366",
     "tick_size": 5.0,
     "trading_symbol": "GIRIRAJ",
     "qty_multiplier": 1.0
@@ -407229,6 +409483,20 @@
     "exchange_token": "1469",
     "tick_size": 1.0,
     "trading_symbol": "UTIFEFRGR6",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "Tacent Projects Limited",
+    "exchange": "BSE",
+    "isin": "INE149D01011",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE149D01011",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "531887",
+    "tick_size": 1.0,
+    "trading_symbol": "TACENT",
     "qty_multiplier": 1.0
   },
   {
@@ -409161,6 +411429,20 @@
     "exchange_token": "132424",
     "tick_size": 5.0,
     "trading_symbol": "GODREJCP#",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "ACCELERATEBS INDIA LIMITED",
+    "exchange": "BSE",
+    "isin": "INE0POP01017",
+    "instrument_type": "MT",
+    "instrument_key": "BSE_EQ|INE0POP01017",
+    "lot_size": 640,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "543938",
+    "tick_size": 5.0,
+    "trading_symbol": "ACCELERATE",
     "qty_multiplier": 1.0
   },
   {
@@ -411908,6 +414190,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "UNION QUALITY PLASTICS LTD.",
+    "exchange": "BSE",
+    "isin": "INE338N01019",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE338N01019",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "526799",
+    "tick_size": 1.0,
+    "trading_symbol": "UNQTYMI",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "BTL 7.30% 2027 SR XXVII",
     "exchange": "NSE",
@@ -411989,6 +414285,20 @@
     "exchange_token": "2568",
     "tick_size": 1.0,
     "trading_symbol": "UTRGR28P13",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "TBBT-12-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE050A14887",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE050A14887",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "730548",
+    "tick_size": 1.0,
+    "trading_symbol": "TBBT121125",
     "qty_multiplier": 1.0
   },
   {
@@ -413809,6 +416119,20 @@
     "exchange_token": "4242",
     "tick_size": 1.0,
     "trading_symbol": "IMFFM32CRG",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "RRVL-13-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE929O14FQ1",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE929O14FQ1",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "732660",
+    "tick_size": 1.0,
+    "trading_symbol": "RRVL23926",
     "qty_multiplier": 1.0
   },
   {
@@ -418965,20 +421289,6 @@
   },
   {
     "segment": "BSE_EQ",
-    "name": "INNOMET ADVANCED MATERI L",
-    "exchange": "BSE",
-    "isin": "INE0S1D01010",
-    "instrument_type": "NT",
-    "instrument_key": "BSE_EQ|INE0S1D01010",
-    "lot_size": 600,
-    "freeze_quantity": 100000.0,
-    "exchange_token": "211981",
-    "tick_size": 5.0,
-    "trading_symbol": "INNOMET",
-    "qty_multiplier": 1.0
-  },
-  {
-    "segment": "BSE_EQ",
     "name": "VIGOR PLAST INDIA LIMITED",
     "exchange": "BSE",
     "isin": "INE1DM601016",
@@ -419423,6 +421733,20 @@
     "exchange_token": "19650",
     "tick_size": 5.0,
     "trading_symbol": "MAXESTATES",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "RAJVIR INDUSTRIES LTD.",
+    "exchange": "BSE",
+    "isin": "INE011H01014",
+    "instrument_type": "Z",
+    "instrument_key": "BSE_EQ|INE011H01014",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "532665",
+    "tick_size": 1.0,
+    "trading_symbol": "RAJVIR",
     "qty_multiplier": 1.0
   },
   {
@@ -423700,11 +426024,11 @@
     "name": "FASCINATE TEXTILES LTD",
     "exchange": "NSE",
     "isin": "INE1Q2D01019",
-    "instrument_type": "SQ",
+    "instrument_type": "SM",
     "instrument_key": "NSE_EQ|INE1Q2D01019",
     "lot_size": 800,
     "freeze_quantity": 100000.0,
-    "exchange_token": "765370",
+    "exchange_token": "765368",
     "tick_size": 5.0,
     "trading_symbol": "FASCINATE",
     "qty_multiplier": 1.0
@@ -423714,11 +426038,11 @@
     "name": "FASCINATE TEXTILES LTD",
     "exchange": "NSE",
     "isin": "INE1Q2D01019",
-    "instrument_type": "ST",
+    "instrument_type": "SQ",
     "instrument_key": "NSE_EQ|INE1Q2D01019",
     "lot_size": 800,
     "freeze_quantity": 100000.0,
-    "exchange_token": "765371",
+    "exchange_token": "765370",
     "tick_size": 5.0,
     "trading_symbol": "FASCINATE",
     "qty_multiplier": 1.0
@@ -425849,6 +428173,20 @@
     "exchange_token": "100483",
     "tick_size": 5.0,
     "trading_symbol": "TATACOMM#",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "BPCL-13-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE029A14BX4",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE029A14BX4",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "732291",
+    "tick_size": 1.0,
+    "trading_symbol": "BPCL14826",
     "qty_multiplier": 1.0
   },
   {
@@ -429034,6 +431372,20 @@
     "name": "HINDUSTAN UNILEVER LTD.",
     "exchange": "NSE",
     "isin": "INE030A01027",
+    "instrument_type": "T0",
+    "instrument_key": "NSE_EQ|INE030A01027",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "757211",
+    "tick_size": 10.0,
+    "trading_symbol": "HINDUNILVR",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "HINDUSTAN UNILEVER LTD.",
+    "exchange": "NSE",
+    "isin": "INE030A01027",
     "instrument_type": "TL",
     "instrument_key": "NSE_EQ|INE030A01027",
     "lot_size": 999999999,
@@ -431246,7 +433598,7 @@
     "name": "VIAZ TYRES LIMITED",
     "exchange": "BSE",
     "isin": "INE0MO401019",
-    "instrument_type": "NS",
+    "instrument_type": "NT",
     "instrument_key": "BSE_EQ|INE0MO401019",
     "lot_size": 2000,
     "freeze_quantity": 100000.0,
@@ -432415,6 +434767,20 @@
     "exchange_token": "937773",
     "tick_size": 1.0,
     "trading_symbol": "910MFL26",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "Advance Syntex Limited",
+    "exchange": "BSE",
+    "isin": "INE184U01012",
+    "instrument_type": "Z",
+    "instrument_key": "BSE_EQ|INE184U01012",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "539982",
+    "tick_size": 1.0,
+    "trading_symbol": "ASYL",
     "qty_multiplier": 1.0
   },
   {
@@ -435190,6 +437556,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "INAVICICI Prudential Mutual ",
+    "exchange": "BSE",
+    "isin": "INF109K1A724",
+    "instrument_type": "B",
+    "instrument_key": "BSE_EQ|INF109K1A724",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "199309",
+    "tick_size": 1.0,
+    "trading_symbol": "POWEINAV",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "JCL 8.05% 2031 SR VIII",
     "exchange": "NSE",
@@ -435859,6 +438239,20 @@
     "exchange_token": "39",
     "tick_size": 5.0,
     "trading_symbol": "JASH",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "SJ CORPORATION LTD.",
+    "exchange": "BSE",
+    "isin": "INE312B01027",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE312B01027",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "504398",
+    "tick_size": 5.0,
+    "trading_symbol": "SJCORP",
     "qty_multiplier": 1.0
   },
   {
@@ -437539,6 +439933,20 @@
     "exchange_token": "211975",
     "tick_size": 5.0,
     "trading_symbol": "GAJANAND",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "CARNATION INDUSTRIES LTD.",
+    "exchange": "BSE",
+    "isin": "INE081B01028",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE081B01028",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "530609",
+    "tick_size": 5.0,
+    "trading_symbol": "CARNATIN",
     "qty_multiplier": 1.0
   },
   {
@@ -441168,6 +443576,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "NSE_EQ",
+    "name": "LMAEL 9% 2029",
+    "exchange": "NSE",
+    "isin": "INE281B07039",
+    "instrument_type": "U0",
+    "instrument_key": "NSE_EQ|INE281B07039",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "767068",
+    "tick_size": 1.0,
+    "trading_symbol": "9LMAEL29",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "BSE_EQ",
     "name": "360OPL-18-5-26-CP",
     "exchange": "BSE",
@@ -442257,6 +444679,20 @@
     "exchange_token": "25681",
     "tick_size": 1.0,
     "trading_symbol": "91D030125",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "JUNE INDUSTRIES LIMITED",
+    "exchange": "BSE",
+    "isin": "INE108B01029",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE108B01029",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "531960",
+    "tick_size": 1.0,
+    "trading_symbol": "JUNE",
     "qty_multiplier": 1.0
   },
   {
@@ -444528,6 +446964,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "CGCL-12-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE180C14953",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE180C14953",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "732232",
+    "tick_size": 1.0,
+    "trading_symbol": "CGCL7826",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "FERMENTA BIOTECH LTD.",
     "exchange": "NSE",
@@ -446474,6 +448924,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "IHFC-12-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE071G14IG3",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE071G14IG3",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "732290",
+    "tick_size": 1.0,
+    "trading_symbol": "IHFC13826",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "SUNDARMAMC -  HIDG",
     "exchange": "NSE",
@@ -447787,6 +450251,20 @@
     "exchange_token": "4001",
     "tick_size": 1.0,
     "trading_symbol": "UTRGR29P14",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "INTEGRA SWITCHGEAR LTD.",
+    "exchange": "BSE",
+    "isin": "INE0IPL01018",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE0IPL01018",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "517423",
+    "tick_size": 5.0,
+    "trading_symbol": "INTEGSW",
     "qty_multiplier": 1.0
   },
   {
@@ -450255,6 +452733,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "AMARNATH SECURITIES LTD",
+    "exchange": "BSE",
+    "isin": "INE745P01010",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE745P01010",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "538465",
+    "tick_size": 1.0,
+    "trading_symbol": "AMARSEC",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "STRIDERS IMPEX LIMITED",
     "exchange": "BSE",
     "isin": "INE1XWN01017",
@@ -451444,6 +453936,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "CLENON ENTERPRISES LIMITED",
+    "exchange": "BSE",
+    "isin": "INE769B01028",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE769B01028",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "517564",
+    "tick_size": 1.0,
+    "trading_symbol": "CLENON",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "TOURISM FINANCE CORP OF",
     "exchange": "NSE",
@@ -451917,6 +454423,20 @@
     "exchange_token": "757893",
     "tick_size": 1.0,
     "trading_symbol": "111ESFB31",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "FFSL-12-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE007N14FN5",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE007N14FN5",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "732281",
+    "tick_size": 1.0,
+    "trading_symbol": "FFSL12826",
     "qty_multiplier": 1.0
   },
   {
@@ -454129,6 +456649,20 @@
     "exchange_token": "7649",
     "tick_size": 1.0,
     "trading_symbol": "MIDSELIETF",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "JMG CORPORATION LTD.",
+    "exchange": "BSE",
+    "isin": "INE745F01011",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE745F01011",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "523712",
+    "tick_size": 1.0,
+    "trading_symbol": "JMGCORP",
     "qty_multiplier": 1.0
   },
   {
@@ -457661,6 +460195,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "AXENTRA CORP LIMITED",
+    "exchange": "BSE",
+    "isin": "INE919M01026",
+    "instrument_type": "X",
+    "instrument_key": "BSE_EQ|INE919M01026",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "511634",
+    "tick_size": 5.0,
+    "trading_symbol": "AXENTRA",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "INAVDSP Mutual Fund",
     "exchange": "BSE",
     "isin": "INF740KA1SX1",
@@ -460657,6 +463205,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "TMT (INDIA) LTD.",
+    "exchange": "BSE",
+    "isin": "INE182E01010",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE182E01010",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "522171",
+    "tick_size": 1.0,
+    "trading_symbol": "TMTIND-B1",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "364TB180523",
     "exchange": "BSE",
     "isin": "IN002022Z077",
@@ -460954,7 +463516,7 @@
     "name": "ARVEE LABORATORIES I LTD",
     "exchange": "BSE",
     "isin": "INE006Z01016",
-    "instrument_type": "NS",
+    "instrument_type": "NT",
     "instrument_key": "BSE_EQ|INE006Z01016",
     "lot_size": 1,
     "freeze_quantity": 100000.0,
@@ -461619,6 +464181,20 @@
     "exchange_token": "804449",
     "tick_size": 1.0,
     "trading_symbol": "91TB260821",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "CLC Industries Limited",
+    "exchange": "BSE",
+    "isin": "INE376C01038",
+    "instrument_type": "T",
+    "instrument_key": "BSE_EQ|INE376C01038",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "521082",
+    "tick_size": 1.0,
+    "trading_symbol": "CLCIND",
     "qty_multiplier": 1.0
   },
   {
@@ -464664,7 +467240,7 @@
     "name": "SMARTEN POWER SYSTEMS LTD",
     "exchange": "BSE",
     "isin": "INE14GK01016",
-    "instrument_type": "NS",
+    "instrument_type": "NT",
     "instrument_key": "BSE_EQ|INE14GK01016",
     "lot_size": 1200,
     "freeze_quantity": 100000.0,
@@ -468049,6 +470625,20 @@
   },
   {
     "segment": "NSE_EQ",
+    "name": "GOI LOAN  5.74% 2026",
+    "exchange": "NSE",
+    "isin": "IN0020210186",
+    "instrument_type": "GS",
+    "instrument_key": "NSE_EQ|IN0020210186",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "6695",
+    "tick_size": 1.0,
+    "trading_symbol": "574GS2026",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
     "name": "JK CEMENT LIMITED",
     "exchange": "NSE",
     "isin": "INE823G01014",
@@ -471352,6 +473942,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "SURYAVANSHI SPINNING MILLS LTD",
+    "exchange": "BSE",
+    "isin": "INE431C01023",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE431C01023",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "514140",
+    "tick_size": 1.0,
+    "trading_symbol": "SURYVANSP",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "DABUR INDIA LTD",
     "exchange": "NSE",
@@ -471417,20 +474021,6 @@
     "lot_size": 1,
     "freeze_quantity": 100000.0,
     "exchange_token": "15666",
-    "tick_size": 5.0,
-    "trading_symbol": "DABUR",
-    "qty_multiplier": 1.0
-  },
-  {
-    "segment": "NSE_EQ",
-    "name": "DABUR INDIA LTD",
-    "exchange": "NSE",
-    "isin": "INE016A01026",
-    "instrument_type": "T0",
-    "instrument_key": "NSE_EQ|INE016A01026",
-    "lot_size": 1,
-    "freeze_quantity": 100000.0,
-    "exchange_token": "757158",
     "tick_size": 5.0,
     "trading_symbol": "DABUR",
     "qty_multiplier": 1.0
@@ -472287,6 +474877,20 @@
     "exchange_token": "800274",
     "tick_size": 1.0,
     "trading_symbol": "SGBNOV25VI",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "Refex Renewables & Infrastruct",
+    "exchange": "BSE",
+    "isin": "INE332F01018",
+    "instrument_type": "X",
+    "instrument_key": "BSE_EQ|INE332F01018",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "531260",
+    "tick_size": 5.0,
+    "trading_symbol": "REFEXRENEW",
     "qty_multiplier": 1.0
   },
   {
@@ -474727,6 +477331,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "PIPAN OILS LIMITED",
+    "exchange": "BSE",
+    "isin": "INE378P01036",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE378P01036",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "538537",
+    "tick_size": 5.0,
+    "trading_symbol": "PIPAN",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "MHFCL-02-11-26-CP",
     "exchange": "BSE",
     "isin": "INE882Z14021",
@@ -475577,20 +478195,6 @@
     "exchange_token": "759419",
     "tick_size": 5.0,
     "trading_symbol": "MUNISH",
-    "qty_multiplier": 1.0
-  },
-  {
-    "segment": "BSE_EQ",
-    "name": "SALASAR EXTERIOR CONT LTD",
-    "exchange": "BSE",
-    "isin": "INE00Y701026",
-    "instrument_type": "NT",
-    "instrument_key": "BSE_EQ|INE00Y701026",
-    "lot_size": 6250,
-    "freeze_quantity": 100000.0,
-    "exchange_token": "210309",
-    "tick_size": 5.0,
-    "trading_symbol": "SECL",
     "qty_multiplier": 1.0
   },
   {
@@ -478170,6 +480774,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "CGCL-13-11-26-CP",
+    "exchange": "BSE",
+    "isin": "INE180C14789",
+    "instrument_type": "F",
+    "instrument_key": "BSE_EQ|INE180C14789",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "731483",
+    "tick_size": 1.0,
+    "trading_symbol": "CGCL160426",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "UJJIVAN SMALL FINANC BANK",
     "exchange": "NSE",
@@ -478363,6 +480981,20 @@
     "exchange_token": "757236",
     "tick_size": 1.0,
     "trading_symbol": "ITC",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "Mudunuru Limited",
+    "exchange": "BSE",
+    "isin": "INE491C01027",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE491C01027",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "538743",
+    "tick_size": 1.0,
+    "trading_symbol": "MUDUNURU",
     "qty_multiplier": 1.0
   },
   {
@@ -480694,6 +483326,20 @@
     "name": "BHARATIYA GLOBAL INFO LTD",
     "exchange": "NSE",
     "isin": "INE224M01013",
+    "instrument_type": "BZ",
+    "instrument_key": "NSE_EQ|INE224M01013",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "11371",
+    "tick_size": 1.0,
+    "trading_symbol": "BGLOBAL",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "NSE_EQ",
+    "name": "BHARATIYA GLOBAL INFO LTD",
+    "exchange": "NSE",
+    "isin": "INE224M01013",
     "instrument_type": "EQ",
     "instrument_key": "NSE_EQ|INE224M01013",
     "lot_size": 1,
@@ -482384,6 +485030,20 @@
     "qty_multiplier": 1.0
   },
   {
+    "segment": "BSE_EQ",
+    "name": "PRABHATAM INFRA VENTURE LIMITE",
+    "exchange": "BSE",
+    "isin": "INE265C01025",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE265C01025",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "531647",
+    "tick_size": 1.0,
+    "trading_symbol": "PRABHATAM",
+    "qty_multiplier": 1.0
+  },
+  {
     "segment": "NSE_EQ",
     "name": "HDFCAMC - H1099D41DQ",
     "exchange": "NSE",
@@ -483225,6 +485885,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "N2N TECHNOLOGIES LIMITED",
+    "exchange": "BSE",
+    "isin": "INE043F01011",
+    "instrument_type": "Z",
+    "instrument_key": "BSE_EQ|INE043F01011",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "512279",
+    "tick_size": 1.0,
+    "trading_symbol": "NNTL",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "ICICI Prudential Mutual Fund",
     "exchange": "BSE",
     "isin": "INF109KC1BF7",
@@ -483319,6 +485993,20 @@
     "exchange_token": "761654",
     "tick_size": 1.0,
     "trading_symbol": "ISIFHLSDG",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "KLG CAPITAL SERVICES LTD.",
+    "exchange": "BSE",
+    "isin": "INE929C01018",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE929C01018",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "530771",
+    "tick_size": 1.0,
+    "trading_symbol": "KLGCAP",
     "qty_multiplier": 1.0
   },
   {
@@ -483487,6 +486175,20 @@
     "exchange_token": "25970",
     "tick_size": 1.0,
     "trading_symbol": "91D300125",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "Velox Shipping and Logistics L",
+    "exchange": "BSE",
+    "isin": "INE092P01017",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE092P01017",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "506178",
+    "tick_size": 1.0,
+    "trading_symbol": "VELOX",
     "qty_multiplier": 1.0
   },
   {
@@ -485097,6 +487799,20 @@
     "exchange_token": "30357",
     "tick_size": 1.0,
     "trading_symbol": "DWSFMP32RD",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "RISHABH DIGHA STEEL & ALLIED P",
+    "exchange": "BSE",
+    "isin": "INE864D01015",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE864D01015",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "531539",
+    "tick_size": 1.0,
+    "trading_symbol": "RISHDIGA",
     "qty_multiplier": 1.0
   },
   {
@@ -488797,6 +491513,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "SKIL Infrastructure Limited",
+    "exchange": "BSE",
+    "isin": "INE429F01012",
+    "instrument_type": "Z",
+    "instrument_key": "BSE_EQ|INE429F01012",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "539861",
+    "tick_size": 1.0,
+    "trading_symbol": "SKIL",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "KMPL-06-04-26-CP",
     "exchange": "BSE",
     "isin": "INE916D145B3",
@@ -492143,6 +494873,20 @@
   },
   {
     "segment": "BSE_EQ",
+    "name": "CEREBRA INTEGRATED TECHNOLOGIE",
+    "exchange": "BSE",
+    "isin": "INE345B01019",
+    "instrument_type": "Z",
+    "instrument_key": "BSE_EQ|INE345B01019",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "532413",
+    "tick_size": 1.0,
+    "trading_symbol": "CEREBRAINT",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
     "name": "SAJ HOTELS LIMITED",
     "exchange": "BSE",
     "isin": "INE00MT01022",
@@ -493637,6 +496381,20 @@
     "exchange_token": "980",
     "tick_size": 1.0,
     "trading_symbol": "UTIRGR28P3",
+    "qty_multiplier": 1.0
+  },
+  {
+    "segment": "BSE_EQ",
+    "name": "GLOBAL INFRATECH & FINANCE LIM",
+    "exchange": "BSE",
+    "isin": "INE377M01043",
+    "instrument_type": "XT",
+    "instrument_key": "BSE_EQ|INE377M01043",
+    "lot_size": 1,
+    "freeze_quantity": 100000.0,
+    "exchange_token": "531463",
+    "tick_size": 5.0,
+    "trading_symbol": "GBLINFRA",
     "qty_multiplier": 1.0
   },
   {
